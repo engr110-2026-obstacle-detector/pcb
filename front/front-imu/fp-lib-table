@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Library")(type "KiCad")(uri "C:/Users/Joshua/JCompSync/CURRENT_CLASSES/S14_ENGR110/PROJECT/GIT/pcb/kicad_libraries/Library.pretty")(options "")(descr ""))
+)
