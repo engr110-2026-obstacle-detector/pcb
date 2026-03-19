@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "81e90ab1-1e02-4123-b0b3-bb0377a29c19")
+	(uuid "9cd01a0a-32ad-4dc9-9ccf-03e3fe24567e")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Interface_Expansion:TCA9548APWR"
@@ -524,16 +524,16 @@
 	)
 	(symbol
 		(lib_id "Interface_Expansion:TCA9548APWR")
-		(at 140.97 74.93 0)
+		(at 147.32 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8068cc6a-d257-40af-8479-99a9e1adefcf")
-		(property "Reference" "U2"
-			(at 143.1133 49.53 0)
+		(uuid "542c620b-467a-46ee-977b-c3368d1a0d1d")
+		(property "Reference" "U5"
+			(at 149.4633 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -542,7 +542,7 @@
 			)
 		)
 		(property "Value" "TCA9548APWR"
-			(at 143.1133 52.07 0)
+			(at 149.4633 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -551,7 +551,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm"
-			(at 140.97 100.33 0)
+			(at 147.32 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -560,7 +560,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tca9548a.pdf"
-			(at 142.24 68.58 0)
+			(at 148.59 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -569,7 +569,7 @@
 			)
 		)
 		(property "Description" "Low voltage 8-channel I2C switch with reset, TSSOP-24"
-			(at 140.97 74.93 0)
+			(at 147.32 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -577,91 +577,85 @@
 				(hide yes)
 			)
 		)
-		(pin "18"
-			(uuid "8a4d3470-030c-4232-88aa-f4d484cb5739")
+		(pin "3"
+			(uuid "d12c23c2-b068-4b40-b5b4-f46fe23162be")
 		)
 		(pin "22"
-			(uuid "8511d9a3-1c21-435d-b085-2a868aa643ec")
-		)
-		(pin "1"
-			(uuid "f8038b58-1352-40bb-a3af-19081fdd41e9")
+			(uuid "63f17dbb-7546-483f-8d29-3fcd035ddc00")
 		)
 		(pin "23"
-			(uuid "9bbf06b8-9e36-42bb-bea4-b9a0c8736886")
-		)
-		(pin "5"
-			(uuid "2a3e98c2-a5b2-4dc3-85ec-c46a816944f4")
-		)
-		(pin "24"
-			(uuid "e5bed60e-8f28-43ab-afa3-b098ebba0721")
-		)
-		(pin "9"
-			(uuid "301049e9-ecd7-4a40-b5db-ffd2e1641402")
-		)
-		(pin "8"
-			(uuid "5fde212f-dd9d-4b5e-8c33-5cb336b91b1b")
+			(uuid "f9c743ed-5638-46f2-a156-4a1f1d462797")
 		)
 		(pin "21"
-			(uuid "b8dbc55a-a7e3-41c1-9bc1-0ac8aa0d8621")
-		)
-		(pin "4"
-			(uuid "c4abda50-fb03-4dc2-b87a-99cc7aefd429")
-		)
-		(pin "10"
-			(uuid "357a96e2-1ac9-4bb9-8523-9efc2d036f64")
-		)
-		(pin "13"
-			(uuid "4f8a83fc-28b1-425d-b7fe-b6b9513957ab")
-		)
-		(pin "15"
-			(uuid "6d36cc65-b8ec-455a-bf7f-52dfb679ebac")
-		)
-		(pin "6"
-			(uuid "a67731c1-48fb-4833-a024-33cfad8ff71e")
-		)
-		(pin "11"
-			(uuid "549140af-5a5f-43a9-8c27-8770175a7531")
-		)
-		(pin "20"
-			(uuid "2d4c3106-cf6d-4bb8-a7ca-5df066411376")
-		)
-		(pin "14"
-			(uuid "d6a4ff95-1d01-4b4c-9fe3-693f813be014")
-		)
-		(pin "12"
-			(uuid "e3ed654e-fce8-43c0-9bed-1da5da7009bc")
-		)
-		(pin "19"
-			(uuid "bb92c313-c102-4d8c-9f73-4f38862c58e4")
-		)
-		(pin "7"
-			(uuid "51417614-85b0-4901-920d-cca5aaa84ed4")
+			(uuid "f10ae4d7-894d-4039-94e1-ca2c1800b9ef")
 		)
 		(pin "2"
-			(uuid "46b66b6b-f5af-4a78-afbb-07e71d90573a")
+			(uuid "91ed9e63-756d-4351-bab3-24c70f275539")
 		)
-		(pin "3"
-			(uuid "32337236-de86-4e73-a087-430834de1684")
+		(pin "1"
+			(uuid "c4614006-68ef-420d-b432-7457b5d4a736")
 		)
-		(pin "16"
-			(uuid "7b64d64c-1bcb-4fb9-9583-32cc6e9042c0")
+		(pin "24"
+			(uuid "60202223-c5f8-45d5-b824-e98be4a49fb2")
+		)
+		(pin "18"
+			(uuid "72f0f852-9f24-440a-8e6d-514da6b72503")
+		)
+		(pin "6"
+			(uuid "1f6da21e-efbd-4298-b115-e28db77d2c15")
+		)
+		(pin "14"
+			(uuid "5cd5dc03-6512-45bf-a47c-bfacb8ac29a6")
 		)
 		(pin "17"
-			(uuid "681f6126-96bf-415d-8d57-31502fe83dd0")
+			(uuid "35c5af1f-8388-468c-95db-edc934cf3dd3")
+		)
+		(pin "16"
+			(uuid "c1dcc290-3745-4530-ba86-9109fb54245f")
+		)
+		(pin "13"
+			(uuid "aeea98dc-55b6-4e10-a416-4d3bac1c9667")
+		)
+		(pin "20"
+			(uuid "0282b0cb-5d0b-4ce1-af57-98dc4bd541cb")
+		)
+		(pin "5"
+			(uuid "07ed141f-aaba-4592-af52-c3775dfb13fe")
+		)
+		(pin "9"
+			(uuid "f5be94e2-0b60-41fd-bac8-32a9473cff4f")
+		)
+		(pin "19"
+			(uuid "95a0a40d-18ff-4c2d-9f3e-ba4afe6d4d6a")
+		)
+		(pin "11"
+			(uuid "59171bc6-3e09-4871-937d-23ea0a12e242")
+		)
+		(pin "12"
+			(uuid "e03e35c0-9220-4138-abd2-2a569f187840")
+		)
+		(pin "4"
+			(uuid "d541aea9-5f94-47ed-96dc-ae4e56b60702")
+		)
+		(pin "15"
+			(uuid "5aade7bf-2b45-46d6-b37d-9c7fb5c07ce3")
+		)
+		(pin "10"
+			(uuid "51a1818a-e308-430d-ba43-352a15943956")
+		)
+		(pin "8"
+			(uuid "2a3d6695-f924-44f2-9ff1-17bff3cdaca6")
+		)
+		(pin "7"
+			(uuid "9fa923df-2ef5-4cef-b9c5-ff1b087c3db5")
 		)
 		(instances
 			(project ""
-				(path "/81e90ab1-1e02-4123-b0b3-bb0377a29c19"
-					(reference "U2")
+				(path "/508f986b-6f1b-4c39-bd57-bae69573a4e7/d0e6b8f3-b2a8-43c8-8076-7747d5419a72"
+					(reference "U5")
 					(unit 1)
 				)
 			)
 		)
 	)
-	(sheet_instances
-		(path "/"
-			(page "1")
-		)
-	)
-	(embedded_fonts no)
 )

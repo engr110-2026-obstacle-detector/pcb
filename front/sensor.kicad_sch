@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "b2652d05-715e-42f8-8ce3-856452645a23")
+	(uuid "f232f6dc-7818-446d-ab64-f06e7c34c5ee")
 	(paper "A4")
 	(lib_symbols
 		(symbol "New_Library:VL53L8CXV0GC_1"
@@ -436,16 +436,16 @@
 	)
 	(symbol
 		(lib_id "New_Library:VL53L8CXV0GC_1")
-		(at 113.03 85.09 0)
+		(at 121.92 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "79d285db-d7e5-4f34-a27c-c64e70e999f5")
-		(property "Reference" "U1"
-			(at 143.51 74.93 0)
+		(uuid "c58a1004-07bc-4e24-9482-3b27f4118574")
+		(property "Reference" "U2"
+			(at 152.4 77.47 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -453,7 +453,7 @@
 			)
 		)
 		(property "Value" "VL53L8CXV0GC/1"
-			(at 143.51 77.47 0)
+			(at 152.4 80.01 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -461,7 +461,7 @@
 			)
 		)
 		(property "Footprint" "Library:IC17_LGA16_STM"
-			(at 113.03 85.09 0)
+			(at 121.92 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -471,7 +471,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/vl53l8cx.pdf"
-			(at 113.03 85.09 0)
+			(at 121.92 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -481,7 +481,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 113.03 85.09 0)
+			(at 121.92 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -489,70 +489,64 @@
 				(hide yes)
 			)
 		)
-		(pin "B1"
-			(uuid "36b2c328-ca2b-418a-a1d5-d755963b2edc")
-		)
-		(pin "C2"
-			(uuid "59b3f342-5e45-4fa3-acdf-345bbbb16bd6")
-		)
-		(pin "C3"
-			(uuid "b25cc7fe-ca69-44f8-8eb8-2fb664108fbd")
-		)
-		(pin "C5"
-			(uuid "a7eb32d7-e1f6-4bb4-b5f3-bbb2826e5f9d")
-		)
-		(pin "A3"
-			(uuid "3c02dac8-9e6d-4f43-9656-6cc9e92c506f")
-		)
-		(pin "A4"
-			(uuid "216429dd-0ed3-4622-ab76-2fe3cccf5d6f")
-		)
-		(pin "B7"
-			(uuid "981a2a31-999f-4ec0-b53c-da668a2825ee")
-		)
-		(pin "C7"
-			(uuid "eea70910-a02c-4a84-8f90-3a288c363f9f")
+		(pin "C1"
+			(uuid "8e10c9fd-3ca3-45c4-a838-34f66da0e8cb")
 		)
 		(pin "A5"
-			(uuid "19c520dd-9a65-40e7-84bc-480441fcaaf1")
+			(uuid "a890a4b3-134b-49c7-8fe8-8ea6ffc21597")
 		)
-		(pin "A6"
-			(uuid "c46550f7-0b18-4f50-bb15-09ffa9101d0d")
+		(pin "C7"
+			(uuid "320376bc-25c3-4f44-be21-805e98f6eb5c")
 		)
-		(pin "A7"
-			(uuid "f810b3b6-990a-469f-a300-95ba49dd62f1")
+		(pin "C2"
+			(uuid "9ace33e4-5c89-4c57-b15b-8711b27510a2")
 		)
 		(pin "C4"
-			(uuid "90da6b02-8fef-47bc-8d89-5cb152db35d5")
+			(uuid "fc68abeb-9dac-4c7a-b552-04f72b1814aa")
+		)
+		(pin "B7"
+			(uuid "bc7571fe-a9fc-4c14-8177-2614cb448a74")
 		)
 		(pin "B4"
-			(uuid "b2995577-f8c4-413d-90f5-fa357e5d4cd2")
+			(uuid "9196ee7c-1d35-4eca-a65c-895349ac73be")
 		)
 		(pin "A2"
-			(uuid "85bc3afc-0720-421e-b9da-ab37abe50647")
+			(uuid "155e57e2-1fdf-4949-a29b-24a474a35c06")
 		)
-		(pin "C1"
-			(uuid "776124a4-8241-48db-8933-165fb6b3e727")
+		(pin "A4"
+			(uuid "6d7582d7-5587-4769-841a-aed6543289d6")
 		)
 		(pin "A1"
-			(uuid "3381fae3-1a01-49e5-8004-40ada2a65a9d")
+			(uuid "34191e38-5cd7-4a55-90fb-eb78a2c502b5")
+		)
+		(pin "A3"
+			(uuid "13acc392-f604-4bd4-a59a-e381256e81ee")
+		)
+		(pin "A6"
+			(uuid "df527651-1537-4c98-b62f-39bae4aa4e37")
+		)
+		(pin "B1"
+			(uuid "9a5e9037-e6b2-4b50-96bf-b4a92e43b993")
+		)
+		(pin "C3"
+			(uuid "82620c9e-0e84-4412-9c14-6664d2139d70")
+		)
+		(pin "A7"
+			(uuid "dbf3fcea-55ea-42fc-b273-4cf3d583848f")
 		)
 		(pin "C6"
-			(uuid "a7811330-5a29-49b2-b745-ec301b682164")
+			(uuid "f132356a-f8e9-41cc-8326-f2c5a0be9cbd")
+		)
+		(pin "C5"
+			(uuid "d29e4812-852a-42c4-aad8-df46bcd0fb33")
 		)
 		(instances
 			(project ""
-				(path "/b2652d05-715e-42f8-8ce3-856452645a23"
-					(reference "U1")
+				(path "/508f986b-6f1b-4c39-bd57-bae69573a4e7/0b3f6a80-597d-49fc-a7c3-ab9dba8221cb"
+					(reference "U2")
 					(unit 1)
 				)
 			)
 		)
 	)
-	(sheet_instances
-		(path "/"
-			(page "1")
-		)
-	)
-	(embedded_fonts no)
 )

@@ -451,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "front-core.kicad_pro",
+    "filename": "front.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -611,8 +611,24 @@
   },
   "sheets": [
     [
-      "81e90ab1-1e02-4123-b0b3-bb0377a29c19",
+      "508f986b-6f1b-4c39-bd57-bae69573a4e7",
       "Root"
+    ],
+    [
+      "0b3f6a80-597d-49fc-a7c3-ab9dba8221cb",
+      "sensorC"
+    ],
+    [
+      "f87f006e-e62f-4570-8606-fdae847a413a",
+      "bottom"
+    ],
+    [
+      "843258f1-78c3-468e-9a1f-11cdaf4e9c54",
+      "top"
+    ],
+    [
+      "7930c339-f26f-415c-a8d1-ea724abb9afc",
+      "back"
     ]
   ],
   "text_variables": {}
