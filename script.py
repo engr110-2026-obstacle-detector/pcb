@@ -95,11 +95,20 @@ print("panel saved.")
 print("exporting gerbers ...")
 subprocess.run(["kicad-cli", "pcb", "export", "gerbers", "--layers", "F.Cu,B.Cu,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,F.Mask,B.Mask,Edge.Cuts", os.getcwd()+"/front/scratch/PANEL.kicad_pcb", "--output", os.getcwd()+"/front/scratch/gerbers"])
 subprocess.run(["kicad-cli", "pcb", "export", "drill", os.getcwd()+"/front/scratch/PANEL.kicad_pcb", "--output", os.getcwd()+"/front/scratch/gerbers"])
-subprocess.run(["kicad-cli", "pcb", "export", "dxf", "--output", os.getcwd()+"/front/PCB_Production/panel_F_SolderPasteMask.dxf", "--layers", "F.Paste", "--mode-single", "--output-units", "mm", "--drill-shape-opt", "0", "--common-layers", "", os.getcwd()+"/front/scratch/PANEL.kicad_pcb"])
+
 
 shutil.make_archive(os.getcwd()+"/front/scratch/gerbers", 'zip', os.getcwd()+"/front/scratch/gerbers")
 shutil.rmtree(os.getcwd()+"/front/scratch/gerbers")
 
 shutil.move(os.getcwd()+"/front/scratch/gerbers.zip", os.getcwd()+"/front/PCB_Production/gerbers.zip")
+
+print("rendering images ...")
+subprocess.run(["kicad-cli", "pcb", "render", os.getcwd()+"/front/scratch/PANEL.kicad_pcb", "--output", os.getcwd()+"/front/renders/panel.png"])
+
+subprocess.run(["kicad-cli", "pcb", "render", os.getcwd()+"/front/scratch/front_top.kicad_pcb", "--output", os.getcwd()+"/front/renders/front_top.png"])
+subprocess.run(["kicad-cli", "pcb", "render", os.getcwd()+"/front/scratch/front_sensor_C.kicad_pcb", "--output", os.getcwd()+"/front/renders/front_sensor_C.png"])
+subprocess.run(["kicad-cli", "pcb", "render", os.getcwd()+"/front/scratch/front_bottom.kicad_pcb", "--output", os.getcwd()+"/front/renders/front_bottom.png"])
+subprocess.run(["kicad-cli", "pcb", "render", os.getcwd()+"/front/scratch/front_back.kicad_pcb", "--output", os.getcwd()+"/front/renders/front_back.png"])
+
 
 print("done.")
