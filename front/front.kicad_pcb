@@ -965,6 +965,112 @@
 			)
 		)
 	)
+	(footprint "PCM_kikit:Tab"
+		(layer "F.Cu")
+		(uuid "094d87f7-9956-48d2-983b-08e0267e7950")
+		(at 189.108452 106.597467)
+		(descr "A symbol representing annotation for tab placement")
+		(property "Reference" "REF**"
+			(at -0.25 -2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0afe4414-29dc-4e98-a7af-8bb5115fd36d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Tab"
+			(at -3 -1 0)
+			(layer "Dwgs.User")
+			(uuid "3365ec19-ce7f-4836-b5a5-1e09ff286dd5")
+			(effects
+				(font
+					(size 1.2 1.2)
+					(thickness 0.2)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "30a4b021-681c-469f-9da5-9b274d923ae5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "07255a8f-9908-49a8-a5ec-c0c55a74c596")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_line
+			(start 0 0)
+			(end -3 0)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "5950d619-5e59-44b1-a475-1b9eebcf630e")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "b8cb0804-ac59-4206-b204-db1797b277ff")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1 1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "15f5fd14-4a27-478c-829a-04465ed77765")
+		)
+		(fp_line
+			(start 0 1)
+			(end 0 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "79f5e0ce-8302-4885-9e25-fe351c28f6d1")
+		)
+		(fp_text user "KIKIT: width: 3mm"
+			(at -5.5 0 90)
+			(layer "Dwgs.User")
+			(uuid "1d3abca4-a917-4729-bbd1-abf32f135cc1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Library:XDCR_LSM6DSO32TR"
 		(layer "F.Cu")
 		(uuid "1b479673-3d8e-47ae-b846-743a22e54346")
@@ -2126,9 +2232,1397 @@
 			)
 		)
 	)
+	(footprint "PCM_kikit:Tab"
+		(layer "F.Cu")
+		(uuid "4b326ffd-07d9-42b5-9016-72b78f6dcb8b")
+		(at 238.726486 82.467467 180)
+		(descr "A symbol representing annotation for tab placement")
+		(property "Reference" "REF**"
+			(at -0.25 -2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0c3f610c-a58a-47ec-b4d7-0ae74bed0e80")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Tab"
+			(at -3 -1 0)
+			(layer "Dwgs.User")
+			(uuid "9ce509fc-9384-490b-8334-e1b8c0bccc8b")
+			(effects
+				(font
+					(size 1.2 1.2)
+					(thickness 0.2)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d4cebb2f-a0c8-468c-a4e8-a976690083c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "908f73fe-2764-480c-83f5-00191777d971")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_line
+			(start 0 1)
+			(end 0 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "3352b491-ca49-4861-a4c6-45b80a721d4d")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1 1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "bc6e0764-5ef8-4954-b3ee-4a5b44e27d9a")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "f6be3d1a-c40c-407f-a7ca-84a6956c7edc")
+		)
+		(fp_line
+			(start 0 0)
+			(end -3 0)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "c2ccf1c5-6c5e-4397-a93f-f7efdec0cd2a")
+		)
+		(fp_text user "KIKIT: width: 3mm"
+			(at -5.5 0 90)
+			(layer "Dwgs.User")
+			(uuid "24680bed-4fc1-41a6-8353-8ab8ef636301")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "PCM_kikit:Tab"
+		(layer "F.Cu")
+		(uuid "5fde3119-79d7-4adc-a5a8-29f61548d8f4")
+		(at 86.355998 115.485466 180)
+		(descr "A symbol representing annotation for tab placement")
+		(property "Reference" "REF**"
+			(at -0.25 -2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7d80e0e3-318b-4b84-a342-bd6679c8ba64")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Tab"
+			(at -3 -1 0)
+			(layer "Dwgs.User")
+			(uuid "deb62316-fc31-4910-8dbf-66e08473797a")
+			(effects
+				(font
+					(size 1.2 1.2)
+					(thickness 0.2)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "69e15c05-cb38-482a-99a6-516ed57f3dcb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5194130f-9032-4ca3-b6e8-ba8650208901")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_line
+			(start 0 1)
+			(end 0 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "ac52c90a-73bc-4188-b4b2-90deeafb8064")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1 1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "ed46a0d2-5a75-432a-a76d-81e0016c4b4e")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "981e3ba1-6870-4f1b-9970-7a88154875bd")
+		)
+		(fp_line
+			(start 0 0)
+			(end -3 0)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "6a1521db-6319-4142-b0cc-7478abad2777")
+		)
+		(fp_text user "KIKIT: width: 2mm"
+			(at -5.5 0 90)
+			(layer "Dwgs.User")
+			(uuid "c6713aa0-f03a-4e5b-9be1-500711f315c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "PCM_kikit:Tab"
+		(layer "F.Cu")
+		(uuid "667aea80-87c9-4632-b44c-64849b96cf0f")
+		(at 189.108452 82.467467)
+		(descr "A symbol representing annotation for tab placement")
+		(property "Reference" "REF**"
+			(at -0.25 -2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fa248594-a8b5-4790-9599-ee6068e22fe6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Tab"
+			(at -3 -1 0)
+			(layer "Dwgs.User")
+			(uuid "8b401b2e-7822-4031-a8c0-d62fafd997db")
+			(effects
+				(font
+					(size 1.2 1.2)
+					(thickness 0.2)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b46f7700-4834-4456-909a-82e2bd809e0f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c48d7851-3988-42c0-9482-5d12133b1458")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_line
+			(start 0 0)
+			(end -3 0)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "63213cb6-080c-4e4e-9abc-76539369056f")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "bf66373a-13a4-4021-aaca-985a7e88e978")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1 1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "43cb1339-8781-4a74-90dd-b8f88da0a795")
+		)
+		(fp_line
+			(start 0 1)
+			(end 0 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "bfbde0ca-4dd4-4d56-b965-5bf63a53f728")
+		)
+		(fp_text user "KIKIT: width: 3mm"
+			(at -5.5 0 90)
+			(layer "Dwgs.User")
+			(uuid "4b38e192-e8de-4e85-9de4-e1836cc4f7f7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "PCM_kikit:Tab"
+		(layer "F.Cu")
+		(uuid "728b98d1-e22f-4518-92b1-5ae9cf5c0ca2")
+		(at 69.841568 95.210598)
+		(descr "A symbol representing annotation for tab placement")
+		(property "Reference" "REF**"
+			(at -0.25 -2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e4ab23c8-5d23-4394-9b1a-6871f17f3028")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Tab"
+			(at -3 -1 0)
+			(layer "Dwgs.User")
+			(uuid "937acbe4-a5d6-44dd-8c4a-e71fcf7fd45b")
+			(effects
+				(font
+					(size 1.2 1.2)
+					(thickness 0.2)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b9986f61-c8d4-4f46-80fd-27127f978f4d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "01b8f692-a818-4341-9f01-ca70ad82b18c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_line
+			(start 0 0)
+			(end -3 0)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "852c17c2-ac86-4859-8eac-a56b7f57a794")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "0d78c404-d628-4ec6-b870-d190458d489d")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1 1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "b451af2f-db91-4a3e-b503-40c80fc0fff1")
+		)
+		(fp_line
+			(start 0 1)
+			(end 0 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "cdf3c3bf-945c-4ce5-8705-0f6bdbfb083d")
+		)
+		(fp_text user "KIKIT: width: 2mm"
+			(at -5.5 0 90)
+			(layer "Dwgs.User")
+			(uuid "5d5572ec-eea4-46ef-a49f-fd2cf5f74ccb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "PCM_kikit:Tab"
+		(layer "F.Cu")
+		(uuid "811341f4-ab2b-483d-94b5-33448ab60ce2")
+		(at 64.7443 34.225705 -90)
+		(descr "A symbol representing annotation for tab placement")
+		(property "Reference" "REF**"
+			(at -0.25 -2 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fcfeb9b1-bc04-460a-b1c2-35c13c83e6c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Tab"
+			(at -3 -1 90)
+			(layer "Dwgs.User")
+			(uuid "4736cdcc-3c39-426d-9723-f2b93ac9480b")
+			(effects
+				(font
+					(size 1.2 1.2)
+					(thickness 0.2)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4100e048-173d-4518-9035-0e1818aca391")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "258a4f80-d26a-43f7-9401-42b1ade805d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_line
+			(start 0 1)
+			(end 0 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "19440b7b-49a2-4f85-904b-74262ed7bc76")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1 1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "3bed4fad-871f-4070-88c3-1335803e1ab4")
+		)
+		(fp_line
+			(start 0 0)
+			(end -3 0)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "6c02ce5e-a358-4aac-a45c-cf105882af3b")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "467630c2-8995-4184-b0db-a7cd383ff331")
+		)
+		(fp_text user "KIKIT: width: 3mm"
+			(at -5.5 0 0)
+			(layer "Dwgs.User")
+			(uuid "94a3ae3e-00ea-44f6-ba62-79efa3d90161")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "PCM_kikit:Tab"
+		(layer "F.Cu")
+		(uuid "9397a173-5666-4e13-84de-a20cca046378")
+		(at 238.726486 106.597467 180)
+		(descr "A symbol representing annotation for tab placement")
+		(property "Reference" "REF**"
+			(at -0.25 -2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "12b1ff07-e704-4a84-be23-9b6536ed8b0f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Tab"
+			(at -3 -1 0)
+			(layer "Dwgs.User")
+			(uuid "07fce37c-ace8-4ea9-bdbf-f5c1898dd864")
+			(effects
+				(font
+					(size 1.2 1.2)
+					(thickness 0.2)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "efe3c265-721f-413f-93e1-4a1ad4b432fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a2665b62-ecdf-4720-b674-73d169d2c11f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_line
+			(start 0 1)
+			(end 0 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "cf0cff63-5c0a-4fea-98e4-bb562393ef65")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1 1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "7b11e16d-4bf6-46fb-8fc3-6fd1b9324ef9")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "14b442df-9e11-40f4-92cf-54af6bc9760c")
+		)
+		(fp_line
+			(start 0 0)
+			(end -3 0)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "90114d69-ec60-43c3-8db2-8a8ae42d44cc")
+		)
+		(fp_text user "KIKIT: width: 3mm"
+			(at -5.5 0 90)
+			(layer "Dwgs.User")
+			(uuid "b17fa851-6091-4852-bc41-41445e0b66f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "PCM_kikit:Tab"
+		(layer "F.Cu")
+		(uuid "940599e5-879e-4cd3-9ed9-bd640481d1e0")
+		(at 64.759973 168.882887 90)
+		(descr "A symbol representing annotation for tab placement")
+		(property "Reference" "REF**"
+			(at -0.25 -2 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ff834f3e-e28b-4716-9a9b-f1d9f42e3eea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Tab"
+			(at -3 -1 90)
+			(layer "Dwgs.User")
+			(uuid "1ef3edae-6d69-420b-bab6-8622e31a6af9")
+			(effects
+				(font
+					(size 1.2 1.2)
+					(thickness 0.2)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bdaf3dde-b37b-469e-ae92-e83900953063")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a18b08e0-f3d1-40cd-b586-f8ea51892f89")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_line
+			(start 0 0)
+			(end -1 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "6d6becd2-6c8b-4d64-a2d5-d6a7203519ab")
+		)
+		(fp_line
+			(start 0 0)
+			(end -3 0)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "3b4fbf7a-a66b-485c-835a-3f1c227b7021")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1 1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "8071cabc-bebc-47d8-bbcf-e39890f4fa88")
+		)
+		(fp_line
+			(start 0 1)
+			(end 0 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "5fb2a997-a0a0-4cf0-b5a6-dfa1111f511a")
+		)
+		(fp_text user "KIKIT: width: 3mm"
+			(at -5.5 0 0)
+			(layer "Dwgs.User")
+			(uuid "45d62959-60cf-44c8-af50-afa9a6031b9f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "PCM_kikit:Tab"
+		(layer "F.Cu")
+		(uuid "9df584b2-28d1-4290-84ab-a23230247132")
+		(at 86.394422 95.167506 180)
+		(descr "A symbol representing annotation for tab placement")
+		(property "Reference" "REF**"
+			(at -0.25 -2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "355ca097-635b-4221-9ca6-75232b9497c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Tab"
+			(at -3 -1 0)
+			(layer "Dwgs.User")
+			(uuid "a781fce9-75ea-4ecf-ba1f-d9c825fc29c4")
+			(effects
+				(font
+					(size 1.2 1.2)
+					(thickness 0.2)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4efc57fc-b95d-4021-b725-34242a3e0963")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78f0c8b6-9b9d-4ded-841e-31accc470c5a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_line
+			(start 0 1)
+			(end 0 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "94113b05-5fa6-4442-9dec-8b7c8a1c41a7")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1 1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "54df76d5-bc7e-4cf4-9799-d39c1e0abcfb")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "0d62ab1e-d6ed-49ac-9270-c0ce732a59d4")
+		)
+		(fp_line
+			(start 0 0)
+			(end -3 0)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "2e2a599e-590f-4217-b01c-67944fdb841b")
+		)
+		(fp_text user "KIKIT: width: 2mm"
+			(at -5.5 0 90)
+			(layer "Dwgs.User")
+			(uuid "49461e4e-3921-49d0-890f-f41e4125881b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "PCM_kikit:Tab"
+		(layer "F.Cu")
+		(uuid "a8738b99-9fbf-4de8-b5eb-215a54ba4157")
+		(at 78.714489 52.005141 90)
+		(descr "A symbol representing annotation for tab placement")
+		(property "Reference" "REF**"
+			(at -0.25 -2 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f5bae789-5a34-458c-a8f5-20b4e9a1c357")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Tab"
+			(at -3 -1 90)
+			(layer "Dwgs.User")
+			(uuid "1a280b3d-3434-47c8-a00e-4832fcbb2dbe")
+			(effects
+				(font
+					(size 1.2 1.2)
+					(thickness 0.2)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "52a0a480-6c37-47e2-b21b-f8c6be87b994")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6c516470-ac7b-4d1c-8422-d89cdaad8344")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_line
+			(start 0 0)
+			(end -1 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "5cacabc4-68dc-4795-b260-92d8f1b5146b")
+		)
+		(fp_line
+			(start 0 0)
+			(end -3 0)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "09811dba-c47a-465b-9dec-81c388f2f69a")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1 1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "e000dae5-8f69-4244-9b92-6c8a60761dd6")
+		)
+		(fp_line
+			(start 0 1)
+			(end 0 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "081947dc-7d80-4171-b569-2eb092fa8007")
+		)
+		(fp_text user "KIKIT: width: 3mm"
+			(at -5.5 0 0)
+			(layer "Dwgs.User")
+			(uuid "cfdba6d4-4bac-4cb2-a8d6-e1f2d91033b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "PCM_kikit:Tab"
+		(layer "F.Cu")
+		(uuid "b22f9334-9318-461c-9a03-ab827c7778ba")
+		(at 91.426161 168.870651 90)
+		(descr "A symbol representing annotation for tab placement")
+		(property "Reference" "REF**"
+			(at -0.25 -2 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ac50cf42-1ce0-4b57-801a-3ae57d54578f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Tab"
+			(at -3 -1 90)
+			(layer "Dwgs.User")
+			(uuid "eaa5113e-de50-4f20-8fae-9ba6b2e5aa2a")
+			(effects
+				(font
+					(size 1.2 1.2)
+					(thickness 0.2)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38496416-4999-4f08-9604-3c9d52b99d67")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "339c0803-9b03-4c48-be78-7413ea0d79b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_line
+			(start 0 0)
+			(end -1 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "78e6b6e6-8f88-428f-9409-4c6fc902fe9b")
+		)
+		(fp_line
+			(start 0 0)
+			(end -3 0)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "2240abf3-98a7-4fc1-8a81-7fd265c0d960")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1 1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "124b4c2a-ce72-4101-b0f5-33461ff80845")
+		)
+		(fp_line
+			(start 0 1)
+			(end 0 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "9fb6e6b3-7508-4418-a2b0-74816424a372")
+		)
+		(fp_text user "KIKIT: width: 3mm"
+			(at -5.5 0 0)
+			(layer "Dwgs.User")
+			(uuid "6152b6c1-2965-4446-827f-b993879c552f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "PCM_kikit:Tab"
+		(layer "F.Cu")
+		(uuid "be543574-ead1-4a57-b78a-18be9d03abc0")
+		(at 77.434652 151.078979 -90)
+		(descr "A symbol representing annotation for tab placement")
+		(property "Reference" "REF**"
+			(at -0.25 -2 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f05cd477-a791-4348-8644-ae2b3b766d2e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Tab"
+			(at -3 -1 90)
+			(layer "Dwgs.User")
+			(uuid "3991fda6-5644-46c8-8139-765867b1f9f6")
+			(effects
+				(font
+					(size 1.2 1.2)
+					(thickness 0.2)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b896c9e0-acce-463d-9758-895f2f3122d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c55b25e0-cf89-440b-b225-f9092dc8f173")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_line
+			(start 0 1)
+			(end 0 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "7555bc64-2013-4b54-bb3b-fae56ce0f50c")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1 1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "77ca7826-d049-481f-b408-57f5a66d7cfa")
+		)
+		(fp_line
+			(start 0 0)
+			(end -3 0)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "0434ab5c-26d6-4d9e-be05-ab573ef11bdb")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "c9197649-8239-44ec-93b4-13ceb3c3dedf")
+		)
+		(fp_text user "KIKIT: width: 3mm"
+			(at -5.5 0 0)
+			(layer "Dwgs.User")
+			(uuid "4049044e-356d-45c5-9683-5bb69f27a6a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "PCM_kikit:Tab"
+		(layer "F.Cu")
+		(uuid "d1cafb1d-61e8-4e9d-980b-790ffccc40f4")
+		(at 91.410488 34.213469 -90)
+		(descr "A symbol representing annotation for tab placement")
+		(property "Reference" "REF**"
+			(at -0.25 -2 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "713df72b-f5a6-477d-ad0c-d63ccf719b7f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Tab"
+			(at -3 -1 90)
+			(layer "Dwgs.User")
+			(uuid "ad828445-75db-469b-9d77-e25e9b8de27b")
+			(effects
+				(font
+					(size 1.2 1.2)
+					(thickness 0.2)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "baabb752-9cae-4bdf-9a00-99979de04cc0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "83a42489-0c72-49e6-a8cd-f1577e9477b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_line
+			(start 0 1)
+			(end 0 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "c16cb675-71a6-4867-8be8-86d47461d6e9")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1 1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "9b48ae77-5c68-4154-91f3-3acc2e43c878")
+		)
+		(fp_line
+			(start 0 0)
+			(end -3 0)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "68aadb93-72da-4221-8c73-68c8a365fc69")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "6904c8ad-123b-4b99-a256-6dfec598af43")
+		)
+		(fp_text user "KIKIT: width: 3mm"
+			(at -5.5 0 0)
+			(layer "Dwgs.User")
+			(uuid "cfed6ca7-326a-454d-b1b4-e0283927b2df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "PCM_kikit:Tab"
+		(layer "F.Cu")
+		(uuid "e4adf9ae-de63-44e8-8d38-565deb841d29")
+		(at 69.773469 115.485466)
+		(descr "A symbol representing annotation for tab placement")
+		(property "Reference" "REF**"
+			(at -0.25 -2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "29fa2450-beed-46d9-8d63-04161b600f4d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Tab"
+			(at -3 -1 0)
+			(layer "Dwgs.User")
+			(uuid "eb51f9ba-eaf5-4ccd-9c93-085d55dbf7b6")
+			(effects
+				(font
+					(size 1.2 1.2)
+					(thickness 0.2)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3f654311-c306-4827-9948-4dd8027f08fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d0564a0e-9256-4674-9abc-b1f283592aa3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_line
+			(start 0 0)
+			(end -3 0)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "3fc1b360-2cd7-41c5-be2b-227ba8e852ab")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "fa5dd4f1-497e-4a6f-a7c7-e55807d6f9ad")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1 1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "fb2b84a0-6bfe-485c-960f-e721640292a5")
+		)
+		(fp_line
+			(start 0 1)
+			(end 0 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "8a1880e7-da62-4da9-8822-767faea63d72")
+		)
+		(fp_text user "KIKIT: width: 2mm"
+			(at -5.5 0 90)
+			(layer "Dwgs.User")
+			(uuid "8f4c0888-7de2-483c-b681-ef2aff29f09f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(gr_line
+		(start 88.265 152.4)
+		(end 103.505 167.64)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "15866cb0-2c9f-459c-a11d-8c4d427d33f1")
+	)
 	(gr_rect
-		(start 190.952856 78.993999)
-		(end 238.307145 111.108288)
+		(start 190.5 78.74)
+		(end 237.49 109.22)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -2138,18 +3632,8 @@
 		(uuid "1c34da12-15a4-4462-b300-b9ccf0acf74a")
 	)
 	(gr_line
-		(start 72.591334 152.548762)
-		(end 57.351334 167.788762)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "24aadae5-9be7-457d-be19-348ae6b66022")
-	)
-	(gr_line
-		(start 71.321334 50.948762)
-		(end 81.481334 50.948762)
+		(start 67.31 50.8)
+		(end 88.9 50.8)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -2158,28 +3642,18 @@
 		(uuid "2fb69488-d9ca-4a0f-831d-bf3cdffb03e6")
 	)
 	(gr_line
-		(start 81.481334 50.948762)
-		(end 96.721334 35.708762)
+		(start 88.265 152.4)
+		(end 66.675 152.4)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "4790d3bf-c4f1-456c-ba50-dddbfd7a04a9")
+		(uuid "6824e029-abeb-4aea-a56d-a6cd7234bd74")
 	)
 	(gr_line
-		(start 72.591334 152.548762)
-		(end 82.751334 152.548762)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "5cb19ee3-8e6f-4e11-b79a-ce0ae569b4a7")
-	)
-	(gr_line
-		(start 56.081334 35.708762)
-		(end 96.721334 35.708762)
+		(start 52.07 35.56)
+		(end 104.14 35.56)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -2188,8 +3662,8 @@
 		(uuid "723af75f-d6cb-4703-bd6e-7ffa14d509b5")
 	)
 	(gr_rect
-		(start 70.051334 92.858762)
-		(end 85.291334 117.778762)
+		(start 71.321334 92.858762)
+		(end 85.09 117.778762)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -2199,34 +3673,44 @@
 		(uuid "7bfc85c3-2199-456e-9cda-84f68b3753dd")
 	)
 	(gr_line
-		(start 82.751334 152.548762)
-		(end 97.991334 167.788762)
+		(start 104.14 35.56)
+		(end 88.9 50.8)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "af653774-536c-4713-8e89-903ae14e7419")
+		(uuid "93cbb544-c84c-4f9d-80db-ef9942327579")
 	)
 	(gr_line
-		(start 57.351334 167.788762)
-		(end 97.991334 167.788762)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "bd5dcff6-cfc1-4848-bab8-2456f6eb9d41")
-	)
-	(gr_line
-		(start 71.321334 50.948762)
-		(end 56.081334 35.708762)
+		(start 67.31 50.8)
+		(end 52.07 35.56)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "cc2045a9-22aa-4d8d-ba3a-a06dae97c54e")
+	)
+	(gr_line
+		(start 103.505 167.64)
+		(end 51.435 167.64)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "eb86a031-f049-4e69-819e-ddf5f8537e89")
+	)
+	(gr_line
+		(start 51.435 167.64)
+		(end 66.675 152.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f1d5317d-34b5-4124-a2c5-7a665ff1b75b")
 	)
 	(gr_rect
 		(start 152.705807 42.498092)
