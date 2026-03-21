@@ -33,10 +33,10 @@ os.system('kikit separate --source "rectangle; tlx: 33mm; tly: 136mm; brx: 125mm
 os.system('kikit separate --source "rectangle; tlx: 154mm; tly: 43mm; brx: 273mm; bry: 141mm" front/front.kicad_pcb front/scratch/front_back.kicad_pcb')
 
 print("exporting pieces to step ...")
-subprocess.run(['kicad-cli', 'pcb', 'export', 'step', 'front/scratch/front_top.kicad_pcb', '-o', 'front/scratch/front_top.step'], stdout=subprocess.DEVNULL)
-subprocess.run(['kicad-cli', 'pcb', 'export', 'step', 'front/scratch/front_sensor_C.kicad_pcb', '-o', 'front/scratch/front_sensor.step'], stdout=subprocess.DEVNULL)
-subprocess.run(['kicad-cli', 'pcb', 'export', 'step', 'front/scratch/front_bottom.kicad_pcb', '-o', 'front/scratch/front_bottom.step'], stdout=subprocess.DEVNULL)
-subprocess.run(['kicad-cli', 'pcb', 'export', 'step', 'front/scratch/front_back.kicad_pcb', '-o', 'front/scratch/front_back.step'], stdout=subprocess.DEVNULL)
+subprocess.run(['kicad-cli', 'pcb', 'export', 'step', 'front/scratch/front_top.kicad_pcb', '-o', 'front/3d_models/front_top.step'], stdout=subprocess.DEVNULL)
+subprocess.run(['kicad-cli', 'pcb', 'export', 'step', 'front/scratch/front_sensor_C.kicad_pcb', '-o', 'front/3d_models/front_sensor.step'], stdout=subprocess.DEVNULL)
+subprocess.run(['kicad-cli', 'pcb', 'export', 'step', 'front/scratch/front_bottom.kicad_pcb', '-o', 'front/3d_models/front_bottom.step'], stdout=subprocess.DEVNULL)
+subprocess.run(['kicad-cli', 'pcb', 'export', 'step', 'front/scratch/front_back.kicad_pcb', '-o', 'front/3d_models/front_back.step'], stdout=subprocess.DEVNULL)
 
 print("panelizing ...")
 
