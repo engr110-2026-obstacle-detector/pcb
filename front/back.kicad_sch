@@ -371,6 +371,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 43.18 31.75)
+		(end 93.98 76.2)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 00c40c61-5e4a-45d0-8f7f-e07241481cb5)
+	)
+	(text "voltage regulators\n"
+		(exclude_from_sim no)
+		(at 65.278 49.784 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "148a948f-76f4-4cb8-b7e3-55e5cae0bb1b")
+	)
 	(wire
 		(pts
 			(xy 142.24 83.82) (xy 142.24 87.63)

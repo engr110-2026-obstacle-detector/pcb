@@ -880,48 +880,6 @@
 			)
 		)
 	)
-	(sheet
-		(at 97.79 116.84)
-		(size 39.37 17.78)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "f87f006e-e62f-4570-8606-fdae847a413a")
-		(property "Sheetname" "bottom"
-			(at 97.79 116.1284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "bottom.kicad_sch"
-			(at 97.79 135.2046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "front"
-				(path "/508f986b-6f1b-4c39-bd57-bae69573a4e7"
-					(page "4")
-				)
-			)
-		)
-	)
 	(sheet_instances
 		(path "/"
 			(page "1")

@@ -81,7 +81,7 @@
 	)
 	(net 0 "")
 	(net 1 "unconnected-(U3-SC0-Pad5)")
-	(net 2 "unconnected-(U3-VCC-Pad24)")
+	(net 2 "Net-(U3-VCC)")
 	(net 3 "unconnected-(U3-SC1-Pad7)")
 	(net 4 "unconnected-(U3-A0-Pad1)")
 	(net 5 "unconnected-(U3-SC6-Pad18)")
@@ -141,14 +141,26 @@
 	(net 59 "unconnected-(U4-V_{DD(B)}-Pad10)")
 	(net 60 "unconnected-(U4-DSDAP-Pad8)")
 	(net 61 "unconnected-(U4-EN-Pad3)")
+	(net 62 "unconnected-(J1-Pin_3-Pad3)")
+	(net 63 "unconnected-(J1-Pin_2-Pad2)")
+	(net 64 "unconnected-(J1-Pin_4-Pad4)")
+	(net 65 "unconnected-(J1-Pin_1-Pad1)")
+	(net 66 "unconnected-(J2-Pin_3-Pad3)")
+	(net 67 "unconnected-(J2-Pin_1-Pad1)")
+	(net 68 "unconnected-(J2-Pin_4-Pad4)")
+	(net 69 "unconnected-(J2-Pin_2-Pad2)")
+	(net 70 "unconnected-(J3-Pin_3-Pad3)")
+	(net 71 "unconnected-(J3-Pin_1-Pad1)")
+	(net 72 "unconnected-(J3-Pin_2-Pad2)")
+	(net 73 "unconnected-(J3-Pin_4-Pad4)")
 	(footprint "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "02c724d1-448b-49f4-a214-2e009a4f9066")
-		(at 77.47 161.29 90)
+		(at 72.39 42.672)
 		(descr "TSSOP, 24 Pin (JEDEC MO-153 variation AD, 1.00mm body thickness, https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "TSSOP SO")
 		(property "Reference" "U3"
-			(at 0 -4.85 90)
+			(at 0 -4.826 0)
 			(layer "F.SilkS")
 			(uuid "48135838-8520-4abf-8530-0abc8875c58e")
 			(effects
@@ -159,7 +171,7 @@
 			)
 		)
 		(property "Value" "TCA9548APWR"
-			(at 0 4.85 90)
+			(at 0 4.85 0)
 			(layer "F.Fab")
 			(uuid "ebc03713-f259-4e0e-9f88-eabc850f04a5")
 			(effects
@@ -170,7 +182,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tca9548a.pdf"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2f3fab83-627e-4723-8370-88e4b8e17afd")
@@ -182,7 +194,7 @@
 			)
 		)
 		(property "Description" "Low voltage 8-channel I2C switch with reset, TSSOP-24"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0b990e03-cb4e-429b-abd0-f35577547716")
@@ -194,9 +206,9 @@
 			)
 		)
 		(property ki_fp_filters "TSSOP*4.4x7.8mm*P0.65mm*")
-		(path "/f87f006e-e62f-4570-8606-fdae847a413a/6f4eb154-3579-4fc0-b191-e2a97bb5fc02")
-		(sheetname "/bottom/")
-		(sheetfile "bottom.kicad_sch")
+		(path "/843258f1-78c3-468e-9a1f-11cdaf4e9c54/6f4eb154-3579-4fc0-b191-e2a97bb5fc02")
+		(sheetname "/top/")
+		(sheetfile "top.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.31 -4.035)
@@ -231,56 +243,6 @@
 			(uuid "3f339b11-e414-4afe-986f-f8bdf807869c")
 		)
 		(fp_line
-			(start 2.45 -4.15)
-			(end 2.45 -4.03)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "511ec63a-755c-4adc-a4db-64d5f067ddd0")
-		)
-		(fp_line
-			(start -2.45 -4.15)
-			(end 2.45 -4.15)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "c6900a3e-db51-4d99-84c7-1c7a853539cf")
-		)
-		(fp_line
-			(start 3.85 -4.03)
-			(end 3.85 4.03)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "5dd87a12-938b-4492-a7f3-1ba6c64129e2")
-		)
-		(fp_line
-			(start 2.45 -4.03)
-			(end 3.85 -4.03)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "04cfe0ba-a832-46c8-9dcc-0a898e2e7dc5")
-		)
-		(fp_line
-			(start -2.45 -4.03)
-			(end -2.45 -4.15)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "15cae986-b416-4088-9b98-4cda9531023a")
-		)
-		(fp_line
 			(start -3.85 -4.03)
 			(end -2.45 -4.03)
 			(stroke
@@ -289,36 +251,6 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "09dd2733-7232-42e1-bcfd-7a9e1b33b24a")
-		)
-		(fp_line
-			(start 3.85 4.03)
-			(end 2.45 4.03)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "5fd9e864-5c3e-4382-96d1-bcfd9b81f656")
-		)
-		(fp_line
-			(start 2.45 4.03)
-			(end 2.45 4.15)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "65a7f432-116e-4c72-83fc-255d4dd7b9de")
-		)
-		(fp_line
-			(start -2.45 4.03)
-			(end -3.85 4.03)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "7e0dcf00-88f4-4c4f-9633-3d8d50e46f53")
 		)
 		(fp_line
 			(start -3.85 4.03)
@@ -331,14 +263,34 @@
 			(uuid "5316b1ad-2bdd-4d22-b817-70cd43443046")
 		)
 		(fp_line
-			(start 2.45 4.15)
-			(end -2.45 4.15)
+			(start -2.45 -4.15)
+			(end 2.45 -4.15)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "1e2f54d9-1fde-4988-9d40-5b5084fb55f4")
+			(uuid "c6900a3e-db51-4d99-84c7-1c7a853539cf")
+		)
+		(fp_line
+			(start -2.45 -4.03)
+			(end -2.45 -4.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "15cae986-b416-4088-9b98-4cda9531023a")
+		)
+		(fp_line
+			(start -2.45 4.03)
+			(end -3.85 4.03)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7e0dcf00-88f4-4c4f-9633-3d8d50e46f53")
 		)
 		(fp_line
 			(start -2.45 4.15)
@@ -349,6 +301,66 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "0e9c7103-1c58-4dd1-91ff-fa4c7ad432b0")
+		)
+		(fp_line
+			(start 2.45 -4.15)
+			(end 2.45 -4.03)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "511ec63a-755c-4adc-a4db-64d5f067ddd0")
+		)
+		(fp_line
+			(start 2.45 -4.03)
+			(end 3.85 -4.03)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "04cfe0ba-a832-46c8-9dcc-0a898e2e7dc5")
+		)
+		(fp_line
+			(start 2.45 4.03)
+			(end 2.45 4.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "65a7f432-116e-4c72-83fc-255d4dd7b9de")
+		)
+		(fp_line
+			(start 2.45 4.15)
+			(end -2.45 4.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1e2f54d9-1fde-4988-9d40-5b5084fb55f4")
+		)
+		(fp_line
+			(start 3.85 -4.03)
+			(end 3.85 4.03)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5dd87a12-938b-4492-a7f3-1ba6c64129e2")
+		)
+		(fp_line
+			(start 3.85 4.03)
+			(end 2.45 4.03)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5fd9e864-5c3e-4382-96d1-bcfd9b81f656")
 		)
 		(fp_poly
 			(pts
@@ -363,7 +375,7 @@
 			(uuid "9f56b115-6a01-4bbb-9ebc-1bf337259650")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 -1.27 0)
 			(layer "F.Fab")
 			(uuid "2b4b9f6b-2a0d-4b39-b1fa-3b2354a04e93")
 			(effects
@@ -374,7 +386,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -2.8625 -3.575 90)
+			(at -2.8625 -3.575)
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -384,7 +396,7 @@
 			(uuid "1996cb18-e107-4086-a4a9-789c92275561")
 		)
 		(pad "2" smd roundrect
-			(at -2.8625 -2.925 90)
+			(at -2.8625 -2.925)
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -394,7 +406,7 @@
 			(uuid "50ff8063-75ea-4c92-88e6-15fa2ea2393d")
 		)
 		(pad "3" smd roundrect
-			(at -2.8625 -2.275 90)
+			(at -2.8625 -2.275)
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -404,7 +416,7 @@
 			(uuid "6e0c35b2-a73e-4575-83d3-c19f45a10aa8")
 		)
 		(pad "4" smd roundrect
-			(at -2.8625 -1.625 90)
+			(at -2.8625 -1.625)
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -414,7 +426,7 @@
 			(uuid "fd1f2b70-3ae3-4498-87c7-6d5d15fcd9f0")
 		)
 		(pad "5" smd roundrect
-			(at -2.8625 -0.975 90)
+			(at -2.8625 -0.975)
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -424,7 +436,7 @@
 			(uuid "00027d6b-90ab-4f25-a646-c6ca03b4345d")
 		)
 		(pad "6" smd roundrect
-			(at -2.8625 -0.325 90)
+			(at -2.8625 -0.325)
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -434,7 +446,7 @@
 			(uuid "3f0848da-c79a-4551-a1d1-fa938dc78321")
 		)
 		(pad "7" smd roundrect
-			(at -2.8625 0.325 90)
+			(at -2.8625 0.325)
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -444,7 +456,7 @@
 			(uuid "16bc7305-3c5b-4b51-82c0-f99071605a75")
 		)
 		(pad "8" smd roundrect
-			(at -2.8625 0.975 90)
+			(at -2.8625 0.975)
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -454,7 +466,7 @@
 			(uuid "c093210f-8969-4aa6-bd8b-dbbfa1e0e546")
 		)
 		(pad "9" smd roundrect
-			(at -2.8625 1.625 90)
+			(at -2.8625 1.625)
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -464,7 +476,7 @@
 			(uuid "ab81fdee-9e3e-4038-902f-d3477870fc51")
 		)
 		(pad "10" smd roundrect
-			(at -2.8625 2.275 90)
+			(at -2.8625 2.275)
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -474,7 +486,7 @@
 			(uuid "37d5bfd1-0436-44d9-b3c4-6599942feeb0")
 		)
 		(pad "11" smd roundrect
-			(at -2.8625 2.925 90)
+			(at -2.8625 2.925)
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -484,7 +496,7 @@
 			(uuid "b95ab2cc-f69f-4240-98bf-af09e2c8e705")
 		)
 		(pad "12" smd roundrect
-			(at -2.8625 3.575 90)
+			(at -2.8625 3.575)
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -494,7 +506,7 @@
 			(uuid "782dd8b3-32ac-4d7e-82bf-1b53335fb884")
 		)
 		(pad "13" smd roundrect
-			(at 2.8625 3.575 90)
+			(at 2.8625 3.575)
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -504,7 +516,7 @@
 			(uuid "fefc8865-df10-427b-a17c-6f32dff8cf4c")
 		)
 		(pad "14" smd roundrect
-			(at 2.8625 2.925 90)
+			(at 2.8625 2.925)
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -514,7 +526,7 @@
 			(uuid "6c7e8477-c343-4ce3-b1b5-2dbf582aa044")
 		)
 		(pad "15" smd roundrect
-			(at 2.8625 2.275 90)
+			(at 2.8625 2.275)
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -524,7 +536,7 @@
 			(uuid "55745476-aeb8-4a1b-a99d-ce48f8c4610f")
 		)
 		(pad "16" smd roundrect
-			(at 2.8625 1.625 90)
+			(at 2.8625 1.625)
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -534,7 +546,7 @@
 			(uuid "4b9e10e5-26c7-41e0-b73e-8989d761bb38")
 		)
 		(pad "17" smd roundrect
-			(at 2.8625 0.975 90)
+			(at 2.8625 0.975)
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -544,7 +556,7 @@
 			(uuid "9115080c-c4ae-43a6-857e-828379197bb7")
 		)
 		(pad "18" smd roundrect
-			(at 2.8625 0.325 90)
+			(at 2.8625 0.325)
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -554,7 +566,7 @@
 			(uuid "1d3ae019-5c10-4e22-8351-0ce16e0d9720")
 		)
 		(pad "19" smd roundrect
-			(at 2.8625 -0.325 90)
+			(at 2.8625 -0.325)
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -564,7 +576,7 @@
 			(uuid "25600fdb-a7b3-4678-8d1d-30c6178e184a")
 		)
 		(pad "20" smd roundrect
-			(at 2.8625 -0.975 90)
+			(at 2.8625 -0.975)
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -574,7 +586,7 @@
 			(uuid "ff72122d-8b66-4275-a1f0-dd34210d8597")
 		)
 		(pad "21" smd roundrect
-			(at 2.8625 -1.625 90)
+			(at 2.8625 -1.625)
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -584,7 +596,7 @@
 			(uuid "8bc2bcc8-d103-43ac-8d94-074083ecb1d6")
 		)
 		(pad "22" smd roundrect
-			(at 2.8625 -2.275 90)
+			(at 2.8625 -2.275)
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -594,7 +606,7 @@
 			(uuid "a3224397-0c69-46ab-bd47-1e5440a06828")
 		)
 		(pad "23" smd roundrect
-			(at 2.8625 -2.925 90)
+			(at 2.8625 -2.925)
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -604,11 +616,11 @@
 			(uuid "316e0136-0f88-4c65-a38b-046d29e67b27")
 		)
 		(pad "24" smd roundrect
-			(at 2.8625 -3.575 90)
+			(at 2.8625 -3.575)
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 2 "unconnected-(U3-VCC-Pad24)")
+			(net 2 "Net-(U3-VCC)")
 			(pinfunction "VCC")
 			(pintype "power_in")
 			(uuid "1578d798-f925-486e-b9ed-039a67cb4541")
@@ -961,116 +973,10 @@
 			)
 		)
 	)
-	(footprint "PCM_kikit:Tab"
-		(layer "F.Cu")
-		(uuid "094d87f7-9956-48d2-983b-08e0267e7950")
-		(at 189.108452 106.597467)
-		(descr "A symbol representing annotation for tab placement")
-		(property "Reference" "REF**"
-			(at -0.25 -2 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "0afe4414-29dc-4e98-a7af-8bb5115fd36d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Tab"
-			(at -3 -1 0)
-			(layer "Dwgs.User")
-			(uuid "3365ec19-ce7f-4836-b5a5-1e09ff286dd5")
-			(effects
-				(font
-					(size 1.2 1.2)
-					(thickness 0.2)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "30a4b021-681c-469f-9da5-9b274d923ae5")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "07255a8f-9908-49a8-a5ec-c0c55a74c596")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
-		(fp_line
-			(start 0 0)
-			(end -3 0)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "5950d619-5e59-44b1-a475-1b9eebcf630e")
-		)
-		(fp_line
-			(start 0 0)
-			(end -1 -1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "b8cb0804-ac59-4206-b204-db1797b277ff")
-		)
-		(fp_line
-			(start 0 0)
-			(end -1 1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "15f5fd14-4a27-478c-829a-04465ed77765")
-		)
-		(fp_line
-			(start 0 1)
-			(end 0 -1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "79f5e0ce-8302-4885-9e25-fe351c28f6d1")
-		)
-		(fp_text user "KIKIT: width: 3mm"
-			(at -5.5 0 90)
-			(layer "Dwgs.User")
-			(uuid "1d3abca4-a917-4729-bbd1-abf32f135cc1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
 	(footprint "Library:XDCR_LSM6DSO32TR"
 		(layer "F.Cu")
 		(uuid "1b479673-3d8e-47ae-b846-743a22e54346")
-		(at 76.2 41.91)
+		(at 85.09 40.894)
 		(property "Reference" "U1"
 			(at 0.4445 -1.9939 180)
 			(layer "F.SilkS")
@@ -1626,6 +1532,281 @@
 			)
 			(rotate
 				(xyz -90 -0 -0)
+			)
+		)
+	)
+	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(layer "F.Cu")
+		(uuid "3a6c0c79-6ed0-40a6-a9da-6cbbbbf68f66")
+		(at 73.66 49.022 90)
+		(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
+		(tags "Through hole pin header THT 1x04 2.54mm single row")
+		(property "Reference" "J2"
+			(at 0 -2.38 90)
+			(layer "F.SilkS")
+			(uuid "76b860a4-8fb0-4bff-b2c2-a43361f8ef42")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 0 10 90)
+			(layer "F.Fab")
+			(uuid "05730eca-eda9-410e-acba-c7eb862907ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "326f241e-57b9-41c3-8be7-df7f80858c9d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c64d307-f458-42d4-9bb6-ca8f7025a177")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/843258f1-78c3-468e-9a1f-11cdaf4e9c54/45b3c533-d573-40cb-b330-d9554cbde786")
+		(sheetname "/top/")
+		(sheetfile "top.kicad_sch")
+		(attr through_hole exclude_from_bom dnp)
+		(fp_line
+			(start -1.38 -1.38)
+			(end 0 -1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4d360b58-59cc-4933-9ae2-25e5ec3a0619")
+		)
+		(fp_line
+			(start -1.38 0)
+			(end -1.38 -1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2630bfe9-d2fd-4ca2-a02b-a3633f586733")
+		)
+		(fp_line
+			(start 1.38 1.27)
+			(end 1.38 9)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "34bae284-734e-4a02-ba47-ffbed19dd79e")
+		)
+		(fp_line
+			(start -1.38 1.27)
+			(end 1.38 1.27)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "33b8a9b8-1c42-4517-93e2-3e82dc294764")
+		)
+		(fp_line
+			(start -1.38 1.27)
+			(end -1.38 9)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ff9a02c5-a606-4694-b34c-0fc9683f9138")
+		)
+		(fp_line
+			(start -1.38 9)
+			(end 1.38 9)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "dc586bad-5c6f-41fb-ad48-25786b93587b")
+		)
+		(fp_line
+			(start 1.77 -1.77)
+			(end -1.77 -1.77)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d6a9c7b2-afbb-4755-9eaa-46ceb159e880")
+		)
+		(fp_line
+			(start -1.77 -1.77)
+			(end -1.77 9.39)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e1a167c5-1be6-488c-ad21-14aad98be657")
+		)
+		(fp_line
+			(start 1.77 9.39)
+			(end 1.77 -1.77)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f4154afe-b20d-46f2-b1a1-cb2a141eccae")
+		)
+		(fp_line
+			(start -1.77 9.39)
+			(end 1.77 9.39)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "01549899-6786-440c-9b41-b27da7528e04")
+		)
+		(fp_line
+			(start 1.27 -1.27)
+			(end 1.27 8.89)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3b0fee2f-a3e9-4007-8850-83c25e1f1d5b")
+		)
+		(fp_line
+			(start -0.635 -1.27)
+			(end 1.27 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b8f6682c-0a28-48ec-9d85-5f576c236ed0")
+		)
+		(fp_line
+			(start -1.27 -0.635)
+			(end -0.635 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "840d5f29-4c0c-45d5-ad0e-e7b54111bbf5")
+		)
+		(fp_line
+			(start 1.27 8.89)
+			(end -1.27 8.89)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4982af3d-b193-4601-97db-473312cd22d9")
+		)
+		(fp_line
+			(start -1.27 8.89)
+			(end -1.27 -0.635)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "95b49f54-c9a0-4608-8e0b-9094d0538af1")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 3.81 0)
+			(layer "F.Fab")
+			(uuid "d13cad69-b85c-48ee-a8b5-9c878c0f2e03")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at 0 0 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 67 "unconnected-(J2-Pin_1-Pad1)")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "72bfb5ac-9762-481f-97a5-3f241ee17519")
+		)
+		(pad "2" thru_hole circle
+			(at 0 2.54 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 69 "unconnected-(J2-Pin_2-Pad2)")
+			(pinfunction "Pin_2")
+			(pintype "passive")
+			(uuid "c0e2eadd-e27f-4f1a-855a-9a858611f7a0")
+		)
+		(pad "3" thru_hole circle
+			(at 0 5.08 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 66 "unconnected-(J2-Pin_3-Pad3)")
+			(pinfunction "Pin_3")
+			(pintype "passive")
+			(uuid "3b207f31-ffd9-4ba7-82de-18122b39ce7f")
+		)
+		(pad "4" thru_hole circle
+			(at 0 7.62 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 68 "unconnected-(J2-Pin_4-Pad4)")
+			(pinfunction "Pin_4")
+			(pintype "passive")
+			(uuid "89b04db0-4d04-4bfe-9477-0e2b2dad3c21")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -2228,16 +2409,16 @@
 			)
 		)
 	)
-	(footprint "PCM_kikit:Tab"
+	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
-		(uuid "4b326ffd-07d9-42b5-9016-72b78f6dcb8b")
-		(at 238.726486 82.467467 180)
-		(descr "A symbol representing annotation for tab placement")
-		(property "Reference" "REF**"
-			(at -0.25 -2 0)
+		(uuid "46d6aa43-181e-49c0-bbb7-a762eb2170c2")
+		(at 58.637898 39.587898 45)
+		(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
+		(tags "Through hole pin header THT 1x04 2.54mm single row")
+		(property "Reference" "J3"
+			(at 0 -2.38 45)
 			(layer "F.SilkS")
-			(hide yes)
-			(uuid "0c3f610c-a58a-47ec-b4d7-0ae74bed0e80")
+			(uuid "d6ded81c-17a8-42c7-873b-906f625ba262")
 			(effects
 				(font
 					(size 1 1)
@@ -2245,105 +2426,274 @@
 				)
 			)
 		)
-		(property "Value" "Tab"
-			(at -3 -1 0)
-			(layer "Dwgs.User")
-			(uuid "9ce509fc-9384-490b-8334-e1b8c0bccc8b")
-			(effects
-				(font
-					(size 1.2 1.2)
-					(thickness 0.2)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Value" "Conn_01x04"
+			(at 0 10 45)
 			(layer "F.Fab")
-			(hide yes)
-			(uuid "d4cebb2f-a0c8-468c-a4e8-a976690083c4")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "908f73fe-2764-480c-83f5-00191777d971")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
-		(fp_line
-			(start 0 1)
-			(end 0 -1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "3352b491-ca49-4861-a4c6-45b80a721d4d")
-		)
-		(fp_line
-			(start 0 0)
-			(end -1 1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "bc6e0764-5ef8-4954-b3ee-4a5b44e27d9a")
-		)
-		(fp_line
-			(start 0 0)
-			(end -1 -1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "f6be3d1a-c40c-407f-a7ca-84a6956c7edc")
-		)
-		(fp_line
-			(start 0 0)
-			(end -3 0)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "c2ccf1c5-6c5e-4397-a93f-f7efdec0cd2a")
-		)
-		(fp_text user "KIKIT: width: 3mm"
-			(at -5.5 0 90)
-			(layer "Dwgs.User")
-			(uuid "24680bed-4fc1-41a6-8353-8ab8ef636301")
+			(uuid "0d07322e-3891-4ac1-a831-c9722e9e20a8")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
 			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 45)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f4276be-0d35-4dd0-b7b7-8f2ece52796d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 45)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "28d878d8-51ae-4fcb-b044-d09933785dfa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/843258f1-78c3-468e-9a1f-11cdaf4e9c54/2d834d7e-8c44-47cb-95f7-4b652ef7ac3e")
+		(sheetname "/top/")
+		(sheetfile "top.kicad_sch")
+		(attr through_hole exclude_from_bom dnp)
+		(fp_line
+			(start -1.38 -1.38)
+			(end 0 -1.379999)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8db685fb-fc1d-4c2e-9ebd-57852fbfe89c")
+		)
+		(fp_line
+			(start -1.379999 0)
+			(end -1.38 -1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "11ca27d0-48fd-4a9a-8301-69106f043e6e")
+		)
+		(fp_line
+			(start -1.38 1.27)
+			(end 1.38 1.27)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5bb2408c-b4ba-4a13-8a62-d2a3a259ef87")
+		)
+		(fp_line
+			(start -1.38 1.27)
+			(end -1.379999 9)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d817fdb7-a79d-4d7f-bb4d-e75099bf91fc")
+		)
+		(fp_line
+			(start 1.38 1.27)
+			(end 1.379999 9)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "aac790c7-024c-4640-aea8-7bbcb3f703dd")
+		)
+		(fp_line
+			(start -1.379999 9)
+			(end 1.379999 9)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "22fb9ccc-663a-449b-9d06-f0a6cb640435")
+		)
+		(fp_line
+			(start -1.77 -1.77)
+			(end -1.77 9.39)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8a6b3770-4e8d-40e4-ac0f-e5a7525b4b70")
+		)
+		(fp_line
+			(start 1.77 -1.77)
+			(end -1.77 -1.77)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b68f1bc7-c3d6-4775-9636-52714c41efdb")
+		)
+		(fp_line
+			(start -1.77 9.39)
+			(end 1.77 9.39)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c14b51cd-493a-44b7-bc4a-63982755a1b4")
+		)
+		(fp_line
+			(start 1.77 9.39)
+			(end 1.77 -1.77)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7e24101d-5aae-4a3d-bef8-84cddff32f2f")
+		)
+		(fp_line
+			(start -0.635 -1.27)
+			(end 1.27 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bb31dab7-5d84-4697-b998-1a9723b2d33e")
+		)
+		(fp_line
+			(start -1.27 -0.635)
+			(end -0.635 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "24d6154c-edee-4930-8131-9e4f74487810")
+		)
+		(fp_line
+			(start 1.27 -1.27)
+			(end 1.27 8.89)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "41a260ca-7857-4715-ad39-4a68e700a863")
+		)
+		(fp_line
+			(start -1.27 8.89)
+			(end -1.27 -0.635)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4e857472-498f-41ab-858b-86f29ae6731f")
+		)
+		(fp_line
+			(start 1.27 8.89)
+			(end -1.27 8.89)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3b0bd0ba-6477-4668-bd84-0d115ea1d731")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 3.81 135)
+			(layer "F.Fab")
+			(uuid "1822187b-2af8-4b9c-95c3-9bec88fc9dc1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at 0 0 45)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 71 "unconnected-(J3-Pin_1-Pad1)")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "3c5d4913-04b0-45d1-845a-3eb1c90ad9e2")
+		)
+		(pad "2" thru_hole circle
+			(at 0 2.54 45)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 72 "unconnected-(J3-Pin_2-Pad2)")
+			(pinfunction "Pin_2")
+			(pintype "passive")
+			(uuid "5e2e9a7b-ce00-4103-a8c1-6864b54a2414")
+		)
+		(pad "3" thru_hole circle
+			(at 0 5.079999 45)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 70 "unconnected-(J3-Pin_3-Pad3)")
+			(pinfunction "Pin_3")
+			(pintype "passive")
+			(uuid "008c6421-30bf-463a-98f0-c2f9d4acd58c")
+		)
+		(pad "4" thru_hole circle
+			(at 0 7.62 45)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 73 "unconnected-(J3-Pin_4-Pad4)")
+			(pinfunction "Pin_4")
+			(pintype "passive")
+			(uuid "7a437d89-0f79-4d8f-88d7-f431e0c06446")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
-	(footprint "PCM_kikit:Tab"
+	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
-		(uuid "5fde3119-79d7-4adc-a5a8-29f61548d8f4")
-		(at 86.355998 115.485466 180)
-		(descr "A symbol representing annotation for tab placement")
-		(property "Reference" "REF**"
-			(at -0.25 -2 0)
+		(uuid "a3cc053a-56e5-45a4-b486-611067a96c72")
+		(at 77.724 40.132 -90)
+		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "capacitor")
+		(property "Reference" "C1"
+			(at 0 -1.43 90)
 			(layer "F.SilkS")
-			(hide yes)
-			(uuid "7d80e0e3-318b-4b84-a342-bd6679c8ba64")
+			(uuid "2efa7b19-748d-4dc0-b34f-f31817864df5")
 			(effects
 				(font
 					(size 1 1)
@@ -2351,86 +2701,10 @@
 				)
 			)
 		)
-		(property "Value" "Tab"
-			(at -3 -1 0)
-			(layer "Dwgs.User")
-			(uuid "deb62316-fc31-4910-8dbf-66e08473797a")
-			(effects
-				(font
-					(size 1.2 1.2)
-					(thickness 0.2)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Value" "1uF"
+			(at 0 1.43 90)
 			(layer "F.Fab")
-			(hide yes)
-			(uuid "69e15c05-cb38-482a-99a6-516ed57f3dcb")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5194130f-9032-4ca3-b6e8-ba8650208901")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
-		(fp_line
-			(start 0 1)
-			(end 0 -1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "ac52c90a-73bc-4188-b4b2-90deeafb8064")
-		)
-		(fp_line
-			(start 0 0)
-			(end -1 1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "ed46a0d2-5a75-432a-a76d-81e0016c4b4e")
-		)
-		(fp_line
-			(start 0 0)
-			(end -1 -1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "981e3ba1-6870-4f1b-9970-7a88154875bd")
-		)
-		(fp_line
-			(start 0 0)
-			(end -3 0)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "6a1521db-6319-4142-b0cc-7478abad2777")
-		)
-		(fp_text user "KIKIT: width: 2mm"
-			(at -5.5 0 90)
-			(layer "Dwgs.User")
-			(uuid "c6713aa0-f03a-4e5b-9be1-500711f315c3")
+			(uuid "cd9ab43c-e198-409b-9760-cf75b07ef73a")
 			(effects
 				(font
 					(size 1 1)
@@ -2438,253 +2712,11 @@
 				)
 			)
 		)
-		(embedded_fonts no)
-	)
-	(footprint "PCM_kikit:Tab"
-		(layer "F.Cu")
-		(uuid "667aea80-87c9-4632-b44c-64849b96cf0f")
-		(at 189.108452 82.467467)
-		(descr "A symbol representing annotation for tab placement")
-		(property "Reference" "REF**"
-			(at -0.25 -2 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "fa248594-a8b5-4790-9599-ee6068e22fe6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Tab"
-			(at -3 -1 0)
-			(layer "Dwgs.User")
-			(uuid "8b401b2e-7822-4031-a8c0-d62fafd997db")
-			(effects
-				(font
-					(size 1.2 1.2)
-					(thickness 0.2)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b46f7700-4834-4456-909a-82e2bd809e0f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c48d7851-3988-42c0-9482-5d12133b1458")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
-		(fp_line
-			(start 0 0)
-			(end -3 0)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "63213cb6-080c-4e4e-9abc-76539369056f")
-		)
-		(fp_line
-			(start 0 0)
-			(end -1 -1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "bf66373a-13a4-4021-aaca-985a7e88e978")
-		)
-		(fp_line
-			(start 0 0)
-			(end -1 1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "43cb1339-8781-4a74-90dd-b8f88da0a795")
-		)
-		(fp_line
-			(start 0 1)
-			(end 0 -1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "bfbde0ca-4dd4-4d56-b965-5bf63a53f728")
-		)
-		(fp_text user "KIKIT: width: 3mm"
-			(at -5.5 0 90)
-			(layer "Dwgs.User")
-			(uuid "4b38e192-e8de-4e85-9de4-e1836cc4f7f7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(footprint "PCM_kikit:Tab"
-		(layer "F.Cu")
-		(uuid "728b98d1-e22f-4518-92b1-5ae9cf5c0ca2")
-		(at 69.841568 95.210598)
-		(descr "A symbol representing annotation for tab placement")
-		(property "Reference" "REF**"
-			(at -0.25 -2 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "e4ab23c8-5d23-4394-9b1a-6871f17f3028")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Tab"
-			(at -3 -1 0)
-			(layer "Dwgs.User")
-			(uuid "937acbe4-a5d6-44dd-8c4a-e71fcf7fd45b")
-			(effects
-				(font
-					(size 1.2 1.2)
-					(thickness 0.2)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b9986f61-c8d4-4f46-80fd-27127f978f4d")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "01b8f692-a818-4341-9f01-ca70ad82b18c")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
-		(fp_line
-			(start 0 0)
-			(end -3 0)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "852c17c2-ac86-4859-8eac-a56b7f57a794")
-		)
-		(fp_line
-			(start 0 0)
-			(end -1 -1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "0d78c404-d628-4ec6-b870-d190458d489d")
-		)
-		(fp_line
-			(start 0 0)
-			(end -1 1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "b451af2f-db91-4a3e-b503-40c80fc0fff1")
-		)
-		(fp_line
-			(start 0 1)
-			(end 0 -1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "cdf3c3bf-945c-4ce5-8705-0f6bdbfb083d")
-		)
-		(fp_text user "KIKIT: width: 2mm"
-			(at -5.5 0 90)
-			(layer "Dwgs.User")
-			(uuid "5d5572ec-eea4-46ef-a49f-fd2cf5f74ccb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(footprint "PCM_kikit:Tab"
-		(layer "F.Cu")
-		(uuid "811341f4-ab2b-483d-94b5-33448ab60ce2")
-		(at 64.7443 34.225705 -90)
-		(descr "A symbol representing annotation for tab placement")
-		(property "Reference" "REF**"
-			(at -0.25 -2 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "fcfeb9b1-bc04-460a-b1c2-35c13c83e6c2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Tab"
-			(at -3 -1 90)
-			(layer "Dwgs.User")
-			(uuid "4736cdcc-3c39-426d-9723-f2b93ac9480b")
-			(effects
-				(font
-					(size 1.2 1.2)
-					(thickness 0.2)
-				)
-			)
-		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4100e048-173d-4518-9035-0e1818aca391")
+			(uuid "bbe08a4f-41fe-431b-9a33-3801bb212efe")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2692,11 +2724,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "258a4f80-d26a-43f7-9401-42b1ade805d7")
+			(uuid "de9937dc-c593-494d-aa94-b9b1b853bd8b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2704,282 +2736,163 @@
 				)
 			)
 		)
-		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(property ki_fp_filters "C_*")
+		(path "/843258f1-78c3-468e-9a1f-11cdaf4e9c54/af335bf7-b301-44c4-947d-cae7721545d3")
+		(sheetname "/top/")
+		(sheetfile "top.kicad_sch")
+		(attr smd)
 		(fp_line
-			(start 0 1)
-			(end 0 -1)
+			(start -0.14058 0.51)
+			(end 0.14058 0.51)
 			(stroke
-				(width 0.3)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "Dwgs.User")
-			(uuid "19440b7b-49a2-4f85-904b-74262ed7bc76")
-		)
-		(fp_line
-			(start 0 0)
-			(end -1 1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "3bed4fad-871f-4070-88c3-1335803e1ab4")
-		)
-		(fp_line
-			(start 0 0)
-			(end -3 0)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "6c02ce5e-a358-4aac-a45c-cf105882af3b")
-		)
-		(fp_line
-			(start 0 0)
-			(end -1 -1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "467630c2-8995-4184-b0db-a7cd383ff331")
-		)
-		(fp_text user "KIKIT: width: 3mm"
-			(at -5.5 0 0)
-			(layer "Dwgs.User")
-			(uuid "94a3ae3e-00ea-44f6-ba62-79efa3d90161")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(footprint "PCM_kikit:Tab"
-		(layer "F.Cu")
-		(uuid "9397a173-5666-4e13-84de-a20cca046378")
-		(at 238.726486 106.597467 180)
-		(descr "A symbol representing annotation for tab placement")
-		(property "Reference" "REF**"
-			(at -0.25 -2 0)
 			(layer "F.SilkS")
-			(hide yes)
-			(uuid "12b1ff07-e704-4a84-be23-9b6536ed8b0f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Tab"
-			(at -3 -1 0)
-			(layer "Dwgs.User")
-			(uuid "07fce37c-ace8-4ea9-bdbf-f5c1898dd864")
-			(effects
-				(font
-					(size 1.2 1.2)
-					(thickness 0.2)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "efe3c265-721f-413f-93e1-4a1ad4b432fb")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a2665b62-ecdf-4720-b674-73d169d2c11f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
-		(fp_line
-			(start 0 1)
-			(end 0 -1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "cf0cff63-5c0a-4fea-98e4-bb562393ef65")
+			(uuid "553dd231-95a8-4505-9903-eb69f3fccafc")
 		)
 		(fp_line
-			(start 0 0)
-			(end -1 1)
+			(start -0.14058 -0.51)
+			(end 0.14058 -0.51)
 			(stroke
-				(width 0.3)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "Dwgs.User")
-			(uuid "7b11e16d-4bf6-46fb-8fc3-6fd1b9324ef9")
-		)
-		(fp_line
-			(start 0 0)
-			(end -1 -1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "14b442df-9e11-40f4-92cf-54af6bc9760c")
-		)
-		(fp_line
-			(start 0 0)
-			(end -3 0)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "90114d69-ec60-43c3-8db2-8a8ae42d44cc")
-		)
-		(fp_text user "KIKIT: width: 3mm"
-			(at -5.5 0 90)
-			(layer "Dwgs.User")
-			(uuid "b17fa851-6091-4852-bc41-41445e0b66f9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(footprint "PCM_kikit:Tab"
-		(layer "F.Cu")
-		(uuid "940599e5-879e-4cd3-9ed9-bd640481d1e0")
-		(at 64.759973 168.882887 90)
-		(descr "A symbol representing annotation for tab placement")
-		(property "Reference" "REF**"
-			(at -0.25 -2 90)
 			(layer "F.SilkS")
-			(hide yes)
-			(uuid "ff834f3e-e28b-4716-9a9b-f1d9f42e3eea")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
+			(uuid "56579dbf-000a-4d87-a9ad-74055d3dca45")
 		)
-		(property "Value" "Tab"
-			(at -3 -1 90)
-			(layer "Dwgs.User")
-			(uuid "1ef3edae-6d69-420b-bab6-8622e31a6af9")
-			(effects
-				(font
-					(size 1.2 1.2)
-					(thickness 0.2)
-				)
+		(fp_line
+			(start -1.48 0.73)
+			(end -1.48 -0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
 			)
+			(layer "F.CrtYd")
+			(uuid "0c9e6784-e54f-4922-aeca-6f71fb522e92")
 		)
-		(property "Datasheet" ""
+		(fp_line
+			(start 1.48 0.73)
+			(end -1.48 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "69074a6c-3fb0-4f75-ab13-330030b56976")
+		)
+		(fp_line
+			(start -1.48 -0.73)
+			(end 1.48 -0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "af7cdda2-1a37-47ad-bb46-03287736d1cc")
+		)
+		(fp_line
+			(start 1.48 -0.73)
+			(end 1.48 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "47e40ab1-1fca-4c67-b50b-aa29a60fc187")
+		)
+		(fp_line
+			(start -0.8 0.4)
+			(end -0.8 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f07d2cc0-d00e-4795-988e-b7261a3e4fa2")
+		)
+		(fp_line
+			(start 0.8 0.4)
+			(end -0.8 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2e316c03-494e-46ac-a382-6b6c2503ac8b")
+		)
+		(fp_line
+			(start -0.8 -0.4)
+			(end 0.8 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cc5688a0-0de6-4443-90d6-d1e25145fed9")
+		)
+		(fp_line
+			(start 0.8 -0.4)
+			(end 0.8 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1bf14305-1730-4e87-aa6e-df6223e0279a")
+		)
+		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
 			(layer "F.Fab")
-			(hide yes)
-			(uuid "bdaf3dde-b37b-469e-ae92-e83900953063")
+			(uuid "e4f08869-8b19-4971-8c16-c0c98d736ea9")
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
+					(size 0.4 0.4)
+					(thickness 0.06)
 				)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a18b08e0-f3d1-40cd-b586-f8ea51892f89")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
+		(pad "1" smd roundrect
+			(at -0.775 0 270)
+			(size 0.9 0.95)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 2 "Net-(U3-VCC)")
+			(pintype "passive")
+			(uuid "381160d0-065e-4165-9bd6-23961ae532a1")
 		)
-		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
-		(fp_line
-			(start 0 0)
-			(end -1 -1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "6d6becd2-6c8b-4d64-a2d5-d6a7203519ab")
-		)
-		(fp_line
-			(start 0 0)
-			(end -3 0)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "3b4fbf7a-a66b-485c-835a-3f1c227b7021")
-		)
-		(fp_line
-			(start 0 0)
-			(end -1 1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "8071cabc-bebc-47d8-bbcf-e39890f4fa88")
-		)
-		(fp_line
-			(start 0 1)
-			(end 0 -1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "5fb2a997-a0a0-4cf0-b5a6-dfa1111f511a")
-		)
-		(fp_text user "KIKIT: width: 3mm"
-			(at -5.5 0 0)
-			(layer "Dwgs.User")
-			(uuid "45d62959-60cf-44c8-af50-afa9a6031b9f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
+		(pad "2" smd roundrect
+			(at 0.775 0 270)
+			(size 0.9 0.95)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 15 "GND")
+			(pintype "passive")
+			(uuid "59accbe2-cf36-416d-94fd-4847d17d9c15")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
-	(footprint "PCM_kikit:Tab"
+	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
-		(uuid "9df584b2-28d1-4290-84ab-a23230247132")
-		(at 86.394422 95.167506 180)
-		(descr "A symbol representing annotation for tab placement")
-		(property "Reference" "REF**"
-			(at -0.25 -2 0)
+		(uuid "e69b3b02-cade-4e7a-98e9-37f2ea8d25c8")
+		(at 92.183949 44.97605 135)
+		(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
+		(tags "Through hole pin header THT 1x04 2.54mm single row")
+		(property "Reference" "J1"
+			(at 0 -2.38 135)
 			(layer "F.SilkS")
-			(hide yes)
-			(uuid "355ca097-635b-4221-9ca6-75232b9497c6")
+			(uuid "659e4fe1-09f8-4f72-bac7-571b8d484204")
 			(effects
 				(font
 					(size 1 1)
@@ -2987,638 +2900,267 @@
 				)
 			)
 		)
-		(property "Value" "Tab"
-			(at -3 -1 0)
-			(layer "Dwgs.User")
-			(uuid "a781fce9-75ea-4ecf-ba1f-d9c825fc29c4")
-			(effects
-				(font
-					(size 1.2 1.2)
-					(thickness 0.2)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Value" "Conn_01x04"
+			(at 0 10 135)
 			(layer "F.Fab")
-			(hide yes)
-			(uuid "4efc57fc-b95d-4021-b725-34242a3e0963")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "78f0c8b6-9b9d-4ded-841e-31accc470c5a")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
-		(fp_line
-			(start 0 1)
-			(end 0 -1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "94113b05-5fa6-4442-9dec-8b7c8a1c41a7")
-		)
-		(fp_line
-			(start 0 0)
-			(end -1 1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "54df76d5-bc7e-4cf4-9799-d39c1e0abcfb")
-		)
-		(fp_line
-			(start 0 0)
-			(end -1 -1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "0d62ab1e-d6ed-49ac-9270-c0ce732a59d4")
-		)
-		(fp_line
-			(start 0 0)
-			(end -3 0)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "2e2a599e-590f-4217-b01c-67944fdb841b")
-		)
-		(fp_text user "KIKIT: width: 2mm"
-			(at -5.5 0 90)
-			(layer "Dwgs.User")
-			(uuid "49461e4e-3921-49d0-890f-f41e4125881b")
+			(uuid "925c8fae-b4ee-4d1b-9e61-27e5cdf6d848")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
 			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 135)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8abc73e7-16bd-4108-9422-7686e7509c0b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 135)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0cbd8a3d-1916-46ce-a744-f421ee5a571d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/843258f1-78c3-468e-9a1f-11cdaf4e9c54/cfa99df9-b394-42e6-95be-a400c72de82b")
+		(sheetname "/top/")
+		(sheetfile "top.kicad_sch")
+		(attr through_hole exclude_from_bom dnp)
+		(fp_line
+			(start 1.38 1.27)
+			(end 1.379999 9)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c6fc2bff-1e62-434c-9736-648bbfa61fe1")
+		)
+		(fp_line
+			(start -1.38 -1.38)
+			(end 0 -1.379999)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8f64c339-5b61-424d-b44c-44644237fd06")
+		)
+		(fp_line
+			(start -1.379999 0)
+			(end -1.38 -1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ab114423-11c9-4615-a4c2-a0b98b02cf97")
+		)
+		(fp_line
+			(start -1.38 1.27)
+			(end 1.38 1.27)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5a43ab74-b37c-43ff-81ff-81351153e3f5")
+		)
+		(fp_line
+			(start -1.38 1.27)
+			(end -1.379999 9)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7595c8c1-af50-44f7-a4b7-07f105a199ad")
+		)
+		(fp_line
+			(start -1.379999 9)
+			(end 1.379999 9)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2eb3835c-bbb0-4aba-9a13-71a5ad733544")
+		)
+		(fp_line
+			(start 1.77 -1.77)
+			(end -1.77 -1.77)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "82c49262-4216-42ca-9714-98b1266e733c")
+		)
+		(fp_line
+			(start -1.77 -1.77)
+			(end -1.77 9.39)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1e4dc914-f3dc-44c4-88ff-179036705f18")
+		)
+		(fp_line
+			(start 1.77 9.39)
+			(end 1.77 -1.77)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "86817407-6591-4361-ab7e-4c8eb3bb84c8")
+		)
+		(fp_line
+			(start -1.77 9.39)
+			(end 1.77 9.39)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6041eadb-3f1a-4dbf-a66e-dd2888555b02")
+		)
+		(fp_line
+			(start 1.27 -1.27)
+			(end 1.27 8.89)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5cb6e1cb-4c7d-4b81-a5c5-dfdd7a8368cf")
+		)
+		(fp_line
+			(start -0.635 -1.27)
+			(end 1.27 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "abb39478-bb55-4d54-845c-87b7b3278fb3")
+		)
+		(fp_line
+			(start -1.27 -0.635)
+			(end -0.635 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1ddf3ea7-0761-4401-8da2-42ae65d50d3b")
+		)
+		(fp_line
+			(start 1.27 8.89)
+			(end -1.27 8.89)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3cf303d1-7174-4bf9-94e2-13cdad41a041")
+		)
+		(fp_line
+			(start -1.27 8.89)
+			(end -1.27 -0.635)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "23337ca2-1c5e-4861-a186-ca316ea8278b")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 3.81 45)
+			(layer "F.Fab")
+			(uuid "8174d42f-5860-4bad-acce-ced1cc9496c5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at 0 0 135)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 65 "unconnected-(J1-Pin_1-Pad1)")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "ae268fe1-f77e-4151-8ff3-6895459237e1")
+		)
+		(pad "2" thru_hole circle
+			(at 0 2.54 135)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 63 "unconnected-(J1-Pin_2-Pad2)")
+			(pinfunction "Pin_2")
+			(pintype "passive")
+			(uuid "5e107566-f959-4016-9aca-5ab63727d106")
+		)
+		(pad "3" thru_hole circle
+			(at 0 5.079999 135)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 62 "unconnected-(J1-Pin_3-Pad3)")
+			(pinfunction "Pin_3")
+			(pintype "passive")
+			(uuid "23da4312-a966-42fc-b7f2-2189f48701cb")
+		)
+		(pad "4" thru_hole circle
+			(at 0 7.62 135)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 64 "unconnected-(J1-Pin_4-Pad4)")
+			(pinfunction "Pin_4")
+			(pintype "passive")
+			(uuid "8b466572-045b-4075-adab-f86c85cdadb0")
 		)
 		(embedded_fonts no)
-	)
-	(footprint "PCM_kikit:Tab"
-		(layer "F.Cu")
-		(uuid "a8738b99-9fbf-4de8-b5eb-215a54ba4157")
-		(at 78.714489 52.005141 90)
-		(descr "A symbol representing annotation for tab placement")
-		(property "Reference" "REF**"
-			(at -0.25 -2 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "f5bae789-5a34-458c-a8f5-20b4e9a1c357")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
-		(property "Value" "Tab"
-			(at -3 -1 90)
-			(layer "Dwgs.User")
-			(uuid "1a280b3d-3434-47c8-a00e-4832fcbb2dbe")
-			(effects
-				(font
-					(size 1.2 1.2)
-					(thickness 0.2)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "52a0a480-6c37-47e2-b21b-f8c6be87b994")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6c516470-ac7b-4d1c-8422-d89cdaad8344")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
-		(fp_line
-			(start 0 0)
-			(end -1 -1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "5cacabc4-68dc-4795-b260-92d8f1b5146b")
-		)
-		(fp_line
-			(start 0 0)
-			(end -3 0)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "09811dba-c47a-465b-9dec-81c388f2f69a")
-		)
-		(fp_line
-			(start 0 0)
-			(end -1 1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "e000dae5-8f69-4244-9b92-6c8a60761dd6")
-		)
-		(fp_line
-			(start 0 1)
-			(end 0 -1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "081947dc-7d80-4171-b569-2eb092fa8007")
-		)
-		(fp_text user "KIKIT: width: 3mm"
-			(at -5.5 0 0)
-			(layer "Dwgs.User")
-			(uuid "cfdba6d4-4bac-4cb2-a8d6-e1f2d91033b3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(footprint "PCM_kikit:Tab"
-		(layer "F.Cu")
-		(uuid "b22f9334-9318-461c-9a03-ab827c7778ba")
-		(at 91.426161 168.870651 90)
-		(descr "A symbol representing annotation for tab placement")
-		(property "Reference" "REF**"
-			(at -0.25 -2 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "ac50cf42-1ce0-4b57-801a-3ae57d54578f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Tab"
-			(at -3 -1 90)
-			(layer "Dwgs.User")
-			(uuid "eaa5113e-de50-4f20-8fae-9ba6b2e5aa2a")
-			(effects
-				(font
-					(size 1.2 1.2)
-					(thickness 0.2)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "38496416-4999-4f08-9604-3c9d52b99d67")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "339c0803-9b03-4c48-be78-7413ea0d79b2")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
-		(fp_line
-			(start 0 0)
-			(end -1 -1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "78e6b6e6-8f88-428f-9409-4c6fc902fe9b")
-		)
-		(fp_line
-			(start 0 0)
-			(end -3 0)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "2240abf3-98a7-4fc1-8a81-7fd265c0d960")
-		)
-		(fp_line
-			(start 0 0)
-			(end -1 1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "124b4c2a-ce72-4101-b0f5-33461ff80845")
-		)
-		(fp_line
-			(start 0 1)
-			(end 0 -1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "9fb6e6b3-7508-4418-a2b0-74816424a372")
-		)
-		(fp_text user "KIKIT: width: 3mm"
-			(at -5.5 0 0)
-			(layer "Dwgs.User")
-			(uuid "6152b6c1-2965-4446-827f-b993879c552f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(footprint "PCM_kikit:Tab"
-		(layer "F.Cu")
-		(uuid "be543574-ead1-4a57-b78a-18be9d03abc0")
-		(at 77.434652 151.078979 -90)
-		(descr "A symbol representing annotation for tab placement")
-		(property "Reference" "REF**"
-			(at -0.25 -2 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "f05cd477-a791-4348-8644-ae2b3b766d2e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Tab"
-			(at -3 -1 90)
-			(layer "Dwgs.User")
-			(uuid "3991fda6-5644-46c8-8139-765867b1f9f6")
-			(effects
-				(font
-					(size 1.2 1.2)
-					(thickness 0.2)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b896c9e0-acce-463d-9758-895f2f3122d8")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c55b25e0-cf89-440b-b225-f9092dc8f173")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
-		(fp_line
-			(start 0 1)
-			(end 0 -1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "7555bc64-2013-4b54-bb3b-fae56ce0f50c")
-		)
-		(fp_line
-			(start 0 0)
-			(end -1 1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "77ca7826-d049-481f-b408-57f5a66d7cfa")
-		)
-		(fp_line
-			(start 0 0)
-			(end -3 0)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "0434ab5c-26d6-4d9e-be05-ab573ef11bdb")
-		)
-		(fp_line
-			(start 0 0)
-			(end -1 -1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "c9197649-8239-44ec-93b4-13ceb3c3dedf")
-		)
-		(fp_text user "KIKIT: width: 3mm"
-			(at -5.5 0 0)
-			(layer "Dwgs.User")
-			(uuid "4049044e-356d-45c5-9683-5bb69f27a6a2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(footprint "PCM_kikit:Tab"
-		(layer "F.Cu")
-		(uuid "d1cafb1d-61e8-4e9d-980b-790ffccc40f4")
-		(at 91.410488 34.213469 -90)
-		(descr "A symbol representing annotation for tab placement")
-		(property "Reference" "REF**"
-			(at -0.25 -2 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "713df72b-f5a6-477d-ad0c-d63ccf719b7f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Tab"
-			(at -3 -1 90)
-			(layer "Dwgs.User")
-			(uuid "ad828445-75db-469b-9d77-e25e9b8de27b")
-			(effects
-				(font
-					(size 1.2 1.2)
-					(thickness 0.2)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "baabb752-9cae-4bdf-9a00-99979de04cc0")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "83a42489-0c72-49e6-a8cd-f1577e9477b0")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
-		(fp_line
-			(start 0 1)
-			(end 0 -1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "c16cb675-71a6-4867-8be8-86d47461d6e9")
-		)
-		(fp_line
-			(start 0 0)
-			(end -1 1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "9b48ae77-5c68-4154-91f3-3acc2e43c878")
-		)
-		(fp_line
-			(start 0 0)
-			(end -3 0)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "68aadb93-72da-4221-8c73-68c8a365fc69")
-		)
-		(fp_line
-			(start 0 0)
-			(end -1 -1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "6904c8ad-123b-4b99-a256-6dfec598af43")
-		)
-		(fp_text user "KIKIT: width: 3mm"
-			(at -5.5 0 0)
-			(layer "Dwgs.User")
-			(uuid "cfed6ca7-326a-454d-b1b4-e0283927b2df")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(footprint "PCM_kikit:Tab"
-		(layer "F.Cu")
-		(uuid "e4adf9ae-de63-44e8-8d38-565deb841d29")
-		(at 69.773469 115.485466)
-		(descr "A symbol representing annotation for tab placement")
-		(property "Reference" "REF**"
-			(at -0.25 -2 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "29fa2450-beed-46d9-8d63-04161b600f4d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Tab"
-			(at -3 -1 0)
-			(layer "Dwgs.User")
-			(uuid "eb51f9ba-eaf5-4ccd-9c93-085d55dbf7b6")
-			(effects
-				(font
-					(size 1.2 1.2)
-					(thickness 0.2)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3f654311-c306-4827-9948-4dd8027f08fd")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d0564a0e-9256-4674-9abc-b1f283592aa3")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
-		(fp_line
-			(start 0 0)
-			(end -3 0)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "3fc1b360-2cd7-41c5-be2b-227ba8e852ab")
-		)
-		(fp_line
-			(start 0 0)
-			(end -1 -1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "fa5dd4f1-497e-4a6f-a7c7-e55807d6f9ad")
-		)
-		(fp_line
-			(start 0 0)
-			(end -1 1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "fb2b84a0-6bfe-485c-960f-e721640292a5")
-		)
-		(fp_line
-			(start 0 1)
-			(end 0 -1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "8a1880e7-da62-4da9-8822-767faea63d72")
-		)
-		(fp_text user "KIKIT: width: 2mm"
-			(at -5.5 0 90)
-			(layer "Dwgs.User")
-			(uuid "8f4c0888-7de2-483c-b681-ef2aff29f09f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(gr_line
-		(start 88.265 152.4)
-		(end 103.505 167.64)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "15866cb0-2c9f-459c-a11d-8c4d427d33f1")
 	)
 	(gr_rect
-		(start 190.5 78.74)
-		(end 237.49 109.22)
+		(start 189.23 78.74)
+		(end 241.3 102.87)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -3636,16 +3178,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "2fb69488-d9ca-4a0f-831d-bf3cdffb03e6")
-	)
-	(gr_line
-		(start 88.265 152.4)
-		(end 66.675 152.4)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "6824e029-abeb-4aea-a56d-a6cd7234bd74")
 	)
 	(gr_line
 		(start 52.07 35.56)
@@ -3688,26 +3220,6 @@
 		(layer "Edge.Cuts")
 		(uuid "cc2045a9-22aa-4d8d-ba3a-a06dae97c54e")
 	)
-	(gr_line
-		(start 103.505 167.64)
-		(end 51.435 167.64)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "eb86a031-f049-4e69-819e-ddf5f8537e89")
-	)
-	(gr_line
-		(start 51.435 167.64)
-		(end 66.675 152.4)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "f1d5317d-34b5-4124-a2c5-7a665ff1b75b")
-	)
 	(gr_rect
 		(start 152.705807 42.498092)
 		(end 273.684856 141.558092)
@@ -3740,17 +3252,6 @@
 		(fill no)
 		(layer "User.1")
 		(uuid "c881e55b-ff21-4163-86a0-d1651f4a4032")
-	)
-	(gr_rect
-		(start 31.75 134.768762)
-		(end 125.73 195.728762)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "User.1")
-		(uuid "f1155f23-8a0b-4fcf-a088-e0a6c920aa11")
 	)
 	(segment
 		(start 77.671334 106.616263)
