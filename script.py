@@ -49,6 +49,11 @@ subprocess.run(['kicad-cli', 'pcb', 'export', 'stl', '--no-dnp', 'front/scratch/
 subprocess.run(['kicad-cli', 'pcb', 'export', 'stl', '--no-dnp', 'front/scratch/front_sensor_C.kicad_pcb', '-o', 'front/3d_models/front_sensor.stl'], stdout=subprocess.DEVNULL)
 subprocess.run(['kicad-cli', 'pcb', 'export', 'stl', '--no-dnp', 'front/scratch/front_back.kicad_pcb', '-o', 'front/3d_models/front_back.stl'], stdout=subprocess.DEVNULL)
 
+subprocess.run(['kicad-cli', 'pcb', 'export', 'step', 'front/front-assembly.kicad_pcb', '-o', 'front/3d_models/front_assembly.step'], stdout=subprocess.DEVNULL)
+
+subprocess.run(['kicad-cli', 'pcb', 'export', 'stl', 'front/front-assembly.kicad_pcb', '-o', 'front/3d_models/front_assembly.stl'], stdout=subprocess.DEVNULL)
+
+
 print("panelizing ...")
 
 board = LoadBoard(sourceFilePath)

@@ -1,0 +1,116 @@
+(footprint "assembly"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3ea08872-6727-4624-89f5-d349040832e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "assembly"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a868ca4-36b9-428a-b80c-c83ed39c9f8a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f64ceceb-c4eb-4ee4-bfc6-f6c0203f5f4a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "16405e3c-fff2-4d62-911a-fae8beeb1a7e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3d_models/front_back.step"
+		(offset
+			(xyz -148.625 19.5 -10.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${KIPRJMOD}/3d_models/front_sensor.step"
+		(offset
+			(xyz 151.5 19.5 -25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -180 -0)
+		)
+	)
+	(model "${KIPRJMOD}/3d_models/front_sensor.step"
+		(offset
+			(xyz 123.5 19.5 85)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -135 -0)
+		)
+	)
+	(model "${KIPRJMOD}/3d_models/front_sensor.step"
+		(offset
+			(xyz 92 19.5 -124.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 135 -0)
+		)
+	)
+	(model "${KIPRJMOD}/3d_models/front_top.step"
+		(offset
+			(xyz 151 0 10)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
+)
