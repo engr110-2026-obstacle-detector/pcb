@@ -161,7 +161,7 @@
 		)
 		(model "${KIPRJMOD}/3d_models/front_sensor.step"
 			(offset
-				(xyz 151.5 19.5 -25)
+				(xyz 149 19.5 -25)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -172,7 +172,7 @@
 		)
 		(model "${KIPRJMOD}/3d_models/front_sensor.step"
 			(offset
-				(xyz 123.5 19.5 85)
+				(xyz 124.511 19.5 86.5)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -183,7 +183,7 @@
 		)
 		(model "${KIPRJMOD}/3d_models/front_sensor.step"
 			(offset
-				(xyz 92 19.5 -124.5)
+				(xyz 88.591 19.5 -121.591)
 			)
 			(scale
 				(xyz 1 1 1)

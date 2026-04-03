@@ -8,7 +8,7 @@
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "3ea08872-6727-4624-89f5-d349040832e4")
+		(uuid "33bb4990-bf50-417e-aca8-3ee6afa9780f")
 		(effects
 			(font
 				(size 1 1)
@@ -21,7 +21,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2a868ca4-36b9-428a-b80c-c83ed39c9f8a")
+		(uuid "39af85d0-5044-4c7e-b3f2-bf18dfb65cd3")
 		(effects
 			(font
 				(size 1 1)
@@ -34,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f64ceceb-c4eb-4ee4-bfc6-f6c0203f5f4a")
+		(uuid "04a1eda4-7550-4c2b-b81c-681bd52b865f")
 		(effects
 			(font
 				(size 1 1)
@@ -47,7 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "16405e3c-fff2-4d62-911a-fae8beeb1a7e")
+		(uuid "f4fa0637-be32-4001-984e-4dfa9b83a650")
 		(effects
 			(font
 				(size 1 1)
@@ -71,7 +71,7 @@
 	)
 	(model "${KIPRJMOD}/3d_models/front_sensor.step"
 		(offset
-			(xyz 151.5 19.5 -25)
+			(xyz 149 19.5 -25)
 		)
 		(scale
 			(xyz 1 1 1)
@@ -82,7 +82,7 @@
 	)
 	(model "${KIPRJMOD}/3d_models/front_sensor.step"
 		(offset
-			(xyz 123.5 19.5 85)
+			(xyz 124.511 19.5 86.5)
 		)
 		(scale
 			(xyz 1 1 1)
@@ -93,7 +93,7 @@
 	)
 	(model "${KIPRJMOD}/3d_models/front_sensor.step"
 		(offset
-			(xyz 92 19.5 -124.5)
+			(xyz 88.591 19.5 -121.591)
 		)
 		(scale
 			(xyz 1 1 1)
