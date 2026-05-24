@@ -1,7 +1,7 @@
 
 cd C:\Users\Joshua\JCompSync\CURRENT_CLASSES\S14_ENGR110\PROJECT\GIT\pcb
 
-python C:\Users\Joshua\JCompSync\CURRENT_CLASSES\S14_ENGR110\PROJECT\GIT\pcb\script.py
+python C:\Users\Joshua\JCompSync\CURRENT_CLASSES\S14_ENGR110\PROJECT\GIT\pcb\front-script.py
 
 
 

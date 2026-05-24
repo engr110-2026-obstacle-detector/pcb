@@ -3469,7 +3469,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "2k"
 			(at 134.62 71.374 90)
 			(show_name no)
 			(do_not_autoplace no)
